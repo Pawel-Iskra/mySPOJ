@@ -1,10 +1,15 @@
+///////////////////////////////////////////////////
+/// NOTES: ////////////////////////////////////////
+/// TASK ID = 506, NAME: FLAMASTER ////////////////
+/// link: https://pl.spoj.com/problems/FLAMASTE ///
+/// TIME RESULT FOR THIS SOLUTION = 0,07s ///////// 
+/// SOURCE CODE LENGTH LIMIT = 2000B //////////////
+///////////////////////////////////////////////////
+
 package mySPOJ;
 
 import java.io.*;
 
-/////////////////////////////////////////////
-/// TIME RESULT FOR THIS SOLUTION = 0,07s ///
-/////////////////////////////////////////////
 public class FLAMASTE_Flamaster {
     public static void main(String[] arg) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
