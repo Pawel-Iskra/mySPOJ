@@ -1,13 +1,19 @@
+///////////////////////////////////////////////////
+/// NOTES: ////////////////////////////////////////
+/// TASK ID = 4840, NAME: SZYFR GRONSFELDA ////////
+/// link: https://pl.spoj.com/problems/WI_SZYFR ///
+/// THIS SOLUTION GETS RESULT = 100% //////////////
+/// TIME RESULT FOR THIS SOLUTION = 0,70s /////////
+/// USAGE: GRONSFELD CIPHER /////////////////////// 
+///////////////////////////////////////////////////
+
 package mySPOJ;
 
 import java.io.*;
-/////////////////////////////////////////////
-/// THIS SOLUTION GETS RESULT = 100% ////////
-/// TIME RESULT FOR THIS SOLUTION = 0,70s ///
-/////////////////////////////////////////////
+
 public class WI_SZYFR_Szyfr_Gronsfelda {
     public static void main(String[] args) throws IOException {
-
+        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         OutputStream out = new BufferedOutputStream(System.out);
 
@@ -37,7 +43,6 @@ public class WI_SZYFR_Szyfr_Gronsfelda {
                     }
                     break;
             }
-
             strb.append("\n");
             out.write(strb.toString().getBytes());
             out.flush();
