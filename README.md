@@ -1,5 +1,5 @@
-# mySPOJ
 <br>NOTE: the goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this.
+<br>
 <br>Implementations:
 <br>► BINOMS -> Binominal coefficient
 <br>► BajtockieSwietoTrojkata -> Heron's formula
