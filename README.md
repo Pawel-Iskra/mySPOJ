@@ -3,6 +3,7 @@
 <br>Implementations:
 <br>► BINOMS -> Binominal coefficient
 <br>► BajtockieSwietoTrojkata -> Heron's formula
+<br>► LENLCS -> Algorithm determining length of longest common subsequence
 <br>► LiczbyPierwsze -> Sieve of Erathosthenes
 <br>► MajatekBilla -> Fast modular exponentiation
 <br>► NWW2 -> Euclidean algorithm
