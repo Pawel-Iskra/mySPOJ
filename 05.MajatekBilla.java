@@ -53,27 +53,26 @@ public class MajatekBilla {
         BufferedOutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
 
-        /// u ^ s mod d ///
-        int u = rd.nextInt();
-        int s = rd.nextInt();
-        int d = rd.nextInt();
+        int base = rd.nextInt();
+        int exp = rd.nextInt();
+        int mod = rd.nextInt();
         do {
             int result = 1;
-            int rest = u % d;
+            int rest = base % mod;
 
-            for (int i = 1; i <= s; i = i << 1) {
-                rest = rest % d;
-                if ((s & i) != 0) {
+            for (int i = 1; i <= exp; i = i << 1) {
+                rest = rest % mod;
+                if ((exp & i) != 0) {
                     result = result * rest;
-                    result = result % d;
+                    result = result % mod;
                 }
                 rest = rest * rest;
             }
             strb.append(result).append("\n");
-            u = rd.nextInt();
-            s = rd.nextInt();
-            d = rd.nextInt();
-        } while (u != 0 && s != 0 && d != 0);
+            base = rd.nextInt();
+            exp = rd.nextInt();
+            mod = rd.nextInt();
+        } while (base != 0 && exp != 0 && mod != 0);
 
         out.write(strb.toString().getBytes());
         out.flush();
