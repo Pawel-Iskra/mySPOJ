@@ -49,13 +49,16 @@ public class SystemyPozycyjne {
     }
 
     public static void main(String[] args) throws IOException {
-        Reader rd = new Reader();
+         Reader rd = new Reader();
         OutputStream out = new BufferedOutputStream(System.out);
-        StringBuilder strb1 = new StringBuilder();
-        StringBuilder strb2 = new StringBuilder();
+        StringBuilder strb1;
+        StringBuilder strb2;
+        StringBuilder strbout = new StringBuilder();
 
         int tests = rd.nextInt();
         for (int i = 0; i < tests; i++) {
+            strb1 = new StringBuilder();
+            strb2 = new StringBuilder();
             int num = rd.nextInt();
             int copy = num;
             while (copy != 0) {
@@ -85,7 +88,7 @@ public class SystemyPozycyjne {
                 } // end else
                 copy = copy / 16;
             } // end while
-            strb1.reverse().append(" ");
+            strb1.reverse();
 
             while (num != 0) {
                 if (num % 11 <= 9) strb2.append(num % 11);
@@ -93,14 +96,11 @@ public class SystemyPozycyjne {
                 num = num / 11;
             }
             strb2.reverse();
-
-            strb1.append(strb2);
-            strb1.append("\n");
-            out.write(strb1.toString().getBytes());
-            out.flush();
-            strb1.delete(0,strb1.length());
-            strb2.delete(0,strb2.length());
+            strbout.append(strb1).append(" ").append(strb2).append("\n");
         }
+
+        out.write(strbout.toString().getBytes());
+        out.flush();
 
 
     }
