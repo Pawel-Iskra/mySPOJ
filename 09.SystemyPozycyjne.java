@@ -2,7 +2,7 @@
 /// NOTES: //////////////////////////////////////////////
 /// TASK ID = 1019, NAME: SYSTEMY POZYCYJNE /////////////
 /// link: https://pl.spoj.com/problems/SYS //////////////
-/// TIME RESULT FOR THIS SOLUTION = 0,54s ///////////////
+/// TIME RESULT FOR THIS SOLUTION = 0,34s ///////////////
 /// USAGE: CONVERTING A NUMBER FROM DECIMAL SYSTEM TO ///
 /// HEXADECIMAL AND ELEVENTH SYSTEM REPRESENTATION //////
 /////////////////////////////////////////////////////////
