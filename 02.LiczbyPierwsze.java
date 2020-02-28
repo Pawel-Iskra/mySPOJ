@@ -2,7 +2,7 @@
 /// NOTES: ///////////////////////////////////////////////
 /// TASK ID = 438, NAME: LICZBY PIERWSZE /////////////////
 /// link: https://pl.spoj.com/problems/PRIME_T ///////////
-/// TIME RESULT FOR THIS SOLUTION = 0,15s ////////////////
+/// TIME RESULT FOR THIS SOLUTION = 0,12s ////////////////
 /// USAGE: DETERMINING IF THE NUMBER IS PRIME ////////////
 /// BY USING - IN SOME WAY - SIEVE OF ERATOSTHENES ///////
 //////////////////////////////////////////////////////////
@@ -58,25 +58,24 @@ public class LiczbyPierwsze {
         Reader rd = new Reader();
         StringBuilder strb = new StringBuilder();
 
-        int n = rd.nextInt();
+       int n = rd.nextInt();
         for (int i = 0; i < n; i++) {
             int x = rd.nextInt();
 
-            boolean flag = false;
-            int val = (int) Math.sqrt(x) + 1;
-
-            for (int j = 3; j < val; j = j + 2) {
-                if (x % j == 0) {
-                    strb.append("NIE").append("\n");
-                    flag = true;
-                    break;
+            if (x == 1) strb.append("NIE").append("\n");
+            else if (x == 2 || x == 3) strb.append("TAK").append("\n");
+            else if (x % 2 == 0) strb.append("NIE").append("\n");
+            else {
+                boolean flag = false;
+                int val = (int) Math.sqrt(x) + 1;
+                for (int j = 3; j < val; j = j + 2) {
+                    if (x % j == 0) {
+                        strb.append("NIE").append("\n");
+                        flag = true;
+                        break;
+                    }
                 }
-            }
-            if (!flag) {
-                if (x == 1) strb.append("NIE").append("\n");
-                else if (x == 2) strb.append("TAK").append("\n");
-                else if (x % 2 == 0) strb.append("NIE").append("\n");
-                else strb.append("TAK").append("\n");
+                if (!flag) strb.append("TAK").append("\n");
             }
         }
 
