@@ -15,3 +15,18 @@
 <br>12. SumyWielokrotne --> Low level number reading
 <br>13. Flamaster
 <br>14. ZabawneDodawaniaPiotrusia
+
+<style> td { border: 1px solid black; } </style>
+<!-- ustawienie czarnego obramowania komórek tabeli w CSS -->
+
+<table>
+   <tr>
+      <td>1</td> <td>2</td> <td>3</td>
+   </tr>
+   <tr>
+      <td>4</td> <td>5</td> <td>6</td>
+   </tr>
+   <tr>
+      <td>7</td> <td>8</td> <td>9</td>
+   </tr>
+</table>
