@@ -16,17 +16,24 @@
 <br>13. Flamaster
 <br>14. ZabawneDodawaniaPiotrusia
 
-<style> td { border: 1px solid black; } </style>
-<!-- ustawienie czarnego obramowania komórek tabeli w CSS -->
-
 <table>
    <tr>
-      <td>1</td> <td>2</td> <td>3</td>
+      <td>1</td>NWW2 <td>2</td>Euclidean algorithm <td>3</td>
    </tr>
    <tr>
-      <td>4</td> <td>5</td> <td>6</td>
+      <td>2</td> <td>LiczbyPierwsze</td> <td>Sieve of Erathosthenes</td>
    </tr>
    <tr>
-      <td>7</td> <td>8</td> <td>9</td>
+      <td>3</td> <td>BINOMS</td> <td>Binomial coefficient</td>
    </tr>
+   <tr>
+      <td>4</td> <td>Stefan</td> <td>Kadane's algorithm</td>
+   </tr>
+    <tr>
+      <td>5</td> <td>MajatekBilla</td> <td>Fast modular exponentiation</td>
+   </tr>
+    <tr>
+      <td>6</td> <td>Sort1</td> <td>Insertion Sort</td>
+   </tr>
+   
 </table>
