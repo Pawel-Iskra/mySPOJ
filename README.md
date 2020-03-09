@@ -4,7 +4,7 @@
 <br>
 <table>
    <tr>
-      <td> </td> <td>Task name</td> <td>Usage of</td>
+      <td> </td> <td><B>Task name</td> <td><B>Usage of</td>
    </tr>
    <tr>
       <td>1</td> <td>NWW2</td> <td>Euclidean algorithm</td>
