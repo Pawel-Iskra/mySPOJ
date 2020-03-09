@@ -4,6 +4,9 @@
 <br>
 <table>
    <tr>
+      <td> </td> <td>Task name</td> <td>Usage of</td>
+   </tr>
+   <tr>
       <td>1</td> <td>NWW2</td> <td>Euclidean algorithm</td>
    </tr>
    <tr>
