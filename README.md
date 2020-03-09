@@ -1,10 +1,9 @@
 Note: the goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this.
 <br>
-<br>Implementations:
 <br>
 <table>
    <tr>
-      <td> </td> <td><B>Task name</td> <td><B>Usage</td>
+      <td> </td> <td><B>Task name</td> <td><B>Implementations</td>
    </tr>
    <tr>
       <td>1</td> <td>NWW2</td> <td>Euclidean algorithm</td>
