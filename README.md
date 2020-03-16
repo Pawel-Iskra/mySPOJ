@@ -3,9 +3,8 @@ Note: the goal of the SPOJ tasks is to get the fastest solution possible. Theref
 <br>
 <table>
    <tr>
-      <th align="center" vlign="middle">...</th>
-		<td align="center" vlign="middle">...</td>
-      <td> </td> <td><B>Task (SPOJ link)</td> <td><B>My solution</td> <td><B>Usage</td>
+      <th align="center" vlign="middle">  
+      <td> </td> <td><B>Task (SPOJ link)</td> <td><B>My solution</td> <td><B>Usage</td> </th>
    </tr>
    <tr>
       <td>1</td> <td><a href="https://pl.spoj.com/problems/NWW">NWW2</a></td> <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">NWW2</a></td> <td>Euclidean algorithm</td>
