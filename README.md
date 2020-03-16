@@ -3,19 +3,19 @@ Note: the goal of the SPOJ tasks is to get the fastest solution possible. Theref
 <br>
 <table>
    <tr>
-      <td> </td> <td><B>Task</td> <td><B>My solution</td><td><B>Usage</td>
+      <td> </td> <td><B>Task (SPOJ link)</td> <td><B>My solution</td> <td><B>Usage</td>
    </tr>
    <tr>
-      <td>1</td> <td><a href="https://pl.spoj.com/problems/NWW">NWW2</a></td> <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">NWW2 -> my_solution</a></td> <td>Euclidean algorithm</td>
+      <td>1</td> <td><a href="https://pl.spoj.com/problems/NWW">NWW</a></td> <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">NWW-solution</a></td> <td>Euclidean algorithm</td>
    </tr>
    <tr>
-      <td>2</td> <td>LiczbyPierwsze</td> <td>Sieve of Erathosthenes</td>
+      <td>2</td> <td><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby Pierwsze</a></td> <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">Liczby Pierwsze-solution</a></td> <td>Sieve of Erathosthenes</td>
    </tr>
    <tr>
-      <td>3</td> <td>BINOMS</td> <td>Binomial coefficient</td>
+      <td>3</td> <td><a href="https://pl.spoj.com/problems/BINOMS/">BINOMS</a></td> <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BINOMS.java">BINOMS-solution</a></td> <td>Binomial coefficient</td>
    </tr>
    <tr>
-      <td>4</td> <td>Stefan</td> <td>Kadane's algorithm</td>
+      <td>4</td> <td><a href="https://pl.spoj.com/problems/FZI_STEF/">Stefan</a></td> <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Stefan.java">Stefan-solution</a></td> <td>Kadane's algorithm</td>
    </tr>
     <tr>
       <td>5</td> <td>MajatekBilla</td> <td>Fast modular exponentiation</td>
