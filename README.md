@@ -2,7 +2,7 @@ Note: the goal of the SPOJ tasks is to get the fastest solution possible. Theref
 <br>
 <br>
 <table>
-   <tr style="vertical-align: top; ">
+   <tr style="text-align: center; ">
       <td> </td> 
       <td><B>Task (SPOJ link)</td> </th>
       <td><B>My solution</td> 
