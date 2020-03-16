@@ -3,10 +3,10 @@ Note: the goal of the SPOJ tasks is to get the fastest solution possible. Theref
 <br>
 <table>
    <tr>
-      <td> </td> <td><B>Task name</td> <td><B>Implementations</td>
+      <td> </td> <td><B>Task</td> <td><B>My solution</td><td><B>Usage</td>
    </tr>
    <tr>
-      <td>1</td> <td>NWW2</td> <td>Euclidean algorithm</td>
+      <td>1</td> <td><a href="https://pl.spoj.com/problems/NWW">NWW2</a></td> <td><a href="https://pl.spoj.com/problems/NWW">NWW2</a></td> <td>Euclidean algorithm</td>
    </tr>
    <tr>
       <td>2</td> <td>LiczbyPierwsze</td> <td>Sieve of Erathosthenes</td>
