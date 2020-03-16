@@ -60,13 +60,13 @@ Note: the goal of the SPOJ tasks is to get the fastest solution possible. Theref
       <td>9</td> 
       <td><a href="https://pl.spoj.com/problems/SYS/">Systemy pozycyjne</a></td>
       <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SystemyPozycyjne.java">Systemy pozycyjne</a></td>
-      <td>Convertion from decimal system to hexadecimal and eleventh systems</td>
+      <td>Convertion from decimal system <br>to hexadecimal and eleventh systems</td>
    </tr>
    <tr>
       <td>10</td> 
       <td><a href="https://pl.spoj.com/problems/LENLCS/">LENLCS</a></td> 
       <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LENLCS.java">LENLCS</a></td> 
-      <td>Algorithm determining length of longest common subsequence</td>
+      <td>Algorithm determining <br>length of longest common subsequence</td>
    </tr>
    <tr>
       <td>11</td> 
