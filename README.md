@@ -6,7 +6,7 @@ Note: the goal of the SPOJ tasks is to get the fastest solution possible. Theref
       <td> </td> 
       <td><B>Task (SPOJ link)</td> </th>
       <td><B>My solution</td> 
-      <td><B>Usage</td> </th> 
+      <td><B>Implementation</td> </th> 
    </tr>
    <tr>
       <td>1</td> 
