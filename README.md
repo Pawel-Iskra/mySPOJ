@@ -16,16 +16,16 @@ Notes about my solutions:
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
          <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
-         width=30" height="30"></a></td> 
+         width=25" height="25"></a></td> 
       <td>Euclidean algorithm</td>
    </tr>
    <tr>
       <td>2</td> 
-      <td><a href="https://pl.spoj.com/problems/PRIME_T/>Liczby pierwsze</a></td> 
+      <td><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
          <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
-         width=30" height="30"></a> </td> 
+         width=25" height="25"> </a> </td> 
       <td>Sieve of Erathosthenes</td>
    </tr>
    <tr>
