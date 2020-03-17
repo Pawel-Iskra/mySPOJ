@@ -2,6 +2,7 @@ Notes about my solutions:
 <br>1. The goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this.
 <br>2. private static class Reader uses DataInputStream class ant its method "read" as a way of super fast input
 <br>
+<br>
 <table>
    <tr align="center" vlign="middle">
       <td> </td> 
@@ -17,7 +18,9 @@ Notes about my solutions:
    </tr>
    <tr>
       <td>2</td> 
-      <td><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby Pierwsze</a></td> 
+      <td><a href="https://pl.spoj.com/problems/PRIME_T/"> 
+         <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
+         width=150" height="70"></a></td> 
       <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">Liczby Pierwsze</a>
       </td> <td>Sieve of Erathosthenes</td>
    </tr>
