@@ -1,5 +1,6 @@
-Note: the goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this.
-<br>
+Notes about my solutions: 
+<br>1. The goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this.
+<br>2. private static class Reader uses DataInputStream class ant its method "read" as a way of super fast input
 <br>
 <table>
    <tr align="center" vlign="middle">
