@@ -13,18 +13,20 @@ Notes about my solutions:
    <tr>
       <td>1</td> 
       <td><a href="https://pl.spoj.com/problems/NWW">NWW</a></td> 
-      <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
+      <td align="center" vlign="middle">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
          <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
-         width=40" height="40"></a></td> 
+         width=30" height="30"></a></td> 
       <td>Euclidean algorithm</td>
    </tr>
    <tr>
       <td>2</td> 
       <td><a href="https://pl.spoj.com/problems/PRIME_T/>Liczby pierwsze</a></td> 
-      <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
+      <td align="center" vlign="middle">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
          <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
-         width=40" height="40"></a>
-      </td> <td>Sieve of Erathosthenes</td>
+         width=30" height="30"></a> </td> 
+      <td>Sieve of Erathosthenes</td>
    </tr>
    <tr>
       <td>3</td> 
