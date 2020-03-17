@@ -1,6 +1,6 @@
 Notes about my solutions: 
 <br>1. The goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this.
-<br>2.<span style="color:#ff6600">private static class Reader</span> uses DataInputStream class and its method "read" as a way of super fast input
+<br>2. <span style='font-style:italic;'>private static class Reader</font> uses DataInputStream class and its method "read" as a way of super fast input
 <br>
 <br>
 <table>
