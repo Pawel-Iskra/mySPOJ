@@ -12,15 +12,15 @@ Notes about my solutions:
    </tr>
    <tr>
       <td>1</td> 
-      <td><a href="https://pl.spoj.com/problems/NWW">NWW2</a></td> 
+      <td><a href="https://pl.spoj.com/problems/NWW">
+          <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
+         width=60" height="60"></a></td> 
       <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">NWW2</a></td> 
       <td>Euclidean algorithm</td>
    </tr>
    <tr>
       <td>2</td> 
-      <td><a href="https://pl.spoj.com/problems/PRIME_T/"> 
-         <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
-         width=150" height="70"></a></td> 
+      <td><a href="https://pl.spoj.com/problems/PRIME_T/>Liczby pierwsze</a></td> 
       <td><a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">Liczby Pierwsze</a>
       </td> <td>Sieve of Erathosthenes</td>
    </tr>
