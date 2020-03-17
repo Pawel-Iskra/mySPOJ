@@ -125,8 +125,8 @@ Notes about my solutions:
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.java">
             <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
            width=25" height="25"></a></td>
-      <td>Linkage between following numbers containing digits
-        <br>5 and 6 only and their binary representations </td>
+      <td>Linkage between following numbers containing
+      <br>5 and 6 digits only and their binary representations </td>
    </tr>
    <tr>
       <td>14</td> 
