@@ -1,5 +1,5 @@
-My SPOJ account: https://pl.spoj.com/users/paweliszcz_20k/
-<br><B>Notes about my solutions: 
+My SPOJ account: <a href="https://pl.spoj.com/users/paweliszcz_20k/">SPOJ_profile</a>
+<br><B>Notes about my solutions:</B> 
 <br>1. The goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this.
 <br>2. "private static class Reader" uses method "read" from DataInputStream class as a way of super fast input.
 <br>3. Usage of BufferedOutputStream and StringBuilder classes is my way of super fast output.
