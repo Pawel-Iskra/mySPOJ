@@ -131,8 +131,28 @@ My SPOJ account: <a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a>
       <td>Linkage between following numbers containing
       <br>5 and 6 digits only and their binary representations </td>
    </tr>
-   <tr>
+    <tr>
       <td>14</td> 
+      <td><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td> 
+      <td align="center" vlign="middle">
+          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
+          <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
+           width=25" height="25"></a>
+      <td>Simple program in BF (Brainfuck) language 
+       <br>printing out a sentence required in the task</td>
+   </tr>
+    <tr>
+      <td>15</td> 
+      <td><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
+      <td align="center" vlign="middle">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit">
+            <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
+           width=25" height="25"></a>
+      <td>Program in BF (Brainfuck) language that
+          <br>determines the last binary digit of given decimal number</td>
+   </tr>
+   <tr>
+      <td>16</td> 
       <td><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td> 
       <td align="center" vlign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
@@ -141,7 +161,7 @@ My SPOJ account: <a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a>
       <td> </td>
    </tr>
     <tr>
-      <td>15</td> 
+      <td>17</td> 
       <td><a href="https://pl.spoj.com/problems/BFN1/">Zabawne Dodawanie Piotrusia</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
