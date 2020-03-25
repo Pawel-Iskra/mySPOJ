@@ -145,7 +145,7 @@ My SPOJ account: <a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a>
       <td>15</td> 
       <td><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
       <td align="center" vlign="middle">
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
             <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
            width=25" height="25"></a>
       <td>Program in BF (Brainfuck) language that
