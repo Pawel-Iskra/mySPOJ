@@ -6,7 +6,7 @@
 ///////////////////////////////////////////////////////
 
 
-,[>,----------]                   // reading char by char from input up to the newline character (ASCII 10)
+,[>,----------]                   // reading char by char of the number given in the input up to the newline character (ASCII 10)
 ++<<[-]>                          // preparing memory cells for the modulo algorithm
 [>->+<[>]>[<+>-]<<[<]>-]          // this modulo algorithm requires starting values as following:
                                   // 0  >n  d  0  0  0
