@@ -63,7 +63,7 @@ public class LiczbyPierwsze {
             int x = rd.nextInt();
 
             if (x == 1) strb.append("NIE").append("\n");
-            else if (x == 2 || x == 3) strb.append("TAK").append("\n");
+            else if (x == 2) strb.append("TAK").append("\n");
             else if (x % 2 == 0) strb.append("NIE").append("\n");
             else {
                 boolean flag = false;
