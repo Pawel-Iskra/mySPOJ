@@ -2,7 +2,7 @@
 /// NOTES: ///////////////////////////////////////////////
 /// TASK ID = 438, NAME: LICZBY PIERWSZE /////////////////
 /// link: https://pl.spoj.com/problems/PRIME_T ///////////
-/// TIME RESULT FOR THIS SOLUTION = 0,12s ////////////////
+/// TIME RESULT FOR THIS SOLUTION = 0,09s ////////////////
 /// USAGE: DETERMINING IF THE NUMBER IS PRIME ////////////
 /// BY USING - IN SOME WAY - SIEVE OF ERATOSTHENES ///////
 //////////////////////////////////////////////////////////
@@ -28,16 +28,13 @@ public class LiczbyPierwsze {
             bufferPointer = bytesRead = 0;
         }
 
-        public int nextInt() throws IOException {
+      public int nextInt() throws IOException {
             int num = 0;
             byte c = read();
             while (c <= ' ') c = read();
-            boolean neg = (c == '-');
-            if (neg) c = read();
             do {
                 num = num * 10 + c - '0';
-            } while ((c = read()) >= '0' && c <= '9');
-            if (neg) return -num;
+            } while ((c = read()) >= '0');
             return num;
         }
 
@@ -53,30 +50,22 @@ public class LiczbyPierwsze {
             return buffer[bufferPointer++];
         }
     }
+    
+    private static boolean isPrime(int x) {
+        if (x % 2 == 0) return x == 2;
+        int sqrt = (int) Math.sqrt(x) + 1;
+        for (int i = 3; i < sqrt; i = i + 2) if (x % i == 0) return false;
+        return x > 1;
+    }
 
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         StringBuilder strb = new StringBuilder();
 
-        int n = rd.nextInt();
+       int n = rd.nextInt();
         for (int i = 0; i < n; i++) {
-            int x = rd.nextInt();
-
-            if (x == 1) strb.append("NIE").append("\n");
-            else if (x == 2) strb.append("TAK").append("\n");
-            else if (x % 2 == 0) strb.append("NIE").append("\n");
-            else {
-                boolean flag = false;
-                int val = (int) Math.sqrt(x) + 1;
-                for (int j = 3; j < val; j = j + 2) {
-                    if (x % j == 0) {
-                        strb.append("NIE").append("\n");
-                        flag = true;
-                        break;
-                    }
-                }
-                if (!flag) strb.append("TAK").append("\n");
-            }
+            if (isPrime(rd.nextInt())) strb.append("TAK\n");
+            else strb.append("NIE\n");
         }
 
         OutputStream out = new BufferedOutputStream(System.out);
