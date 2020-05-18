@@ -6,6 +6,30 @@ My SPOJ account: <a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a>
 <br>3. Usage of BufferedOutputStream and StringBuilder classes is my way of super fast output.
 <br>
 <br>
+
+<table>
+   <tr align="center" vlign="middle">
+      <td>My spoj account </td> 
+      <td>Easy tasks done</td> 
+      <td>Medium tasks done</td> 
+      <td>Hard tasks done</td> 
+      <td>Challenges done</td>
+      <td>Points gained</td>
+      <td>Position in ranking</td>
+      <td>For the day</td> 
+   </tr>
+   <tr align="center" vlign="middle">
+      <td><a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a> </td> 
+      <td><B>133</td>
+      <td><B>18</td> 
+      <td><B>0</td> 
+      <td><B>6</td>
+      <td><B>186,73</td>
+      <td><B>379</td>
+      <td><B>30.04.2020</td>
+   </tr>
+</table>
+   
 <table>
    <tr align="center" vlign="middle">
       <td> </td> 
