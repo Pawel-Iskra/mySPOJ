@@ -1,12 +1,3 @@
-My SPOJ account: <a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a>
-<br>
-<br><B>Notes about my solutions:</B> 
-<br>1. The goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this (sometimes <br>&nbsp;&nbsp;&nbsp;&nbsp; against clean code rules).
-<br>2. "private static class Reader" uses method "read" from DataInputStream class as a way of super fast input.
-<br>3. Usage of BufferedOutputStream and StringBuilder classes is my way of super fast output.
-<br>
-<br>
-
 <table>
    <tr align="center" vlign="middle">
       <td>My spoj account </td> 
@@ -29,7 +20,14 @@ My SPOJ account: <a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a>
       <td><B>30.04.2020</td>
    </tr>
 </table>
-   
+<br>
+<br>
+<br><B>Notes about my solutions:</B> 
+<br>1. The goal of the SPOJ tasks is to get the fastest solution possible. Therefore, coding is done to achieve this (sometimes <br>&nbsp;&nbsp;&nbsp;&nbsp; against clean code rules).
+<br>2. "private static class Reader" uses method "read" from DataInputStream class as a way of super fast input.
+<br>3. Usage of BufferedOutputStream and StringBuilder classes is my way of super fast output.
+<br>
+<br>
 <table>
    <tr align="center" vlign="middle">
       <td> </td> 
