@@ -2,7 +2,7 @@
    <tr align="center" vlign="middle">
       <td>My spoj account </td> 
       <td>Easy tasks done</td> 
-      <td>Medium<br>tasks done</td> 
+      <td>Medium tasks done</td> 
       <td>Hard tasks done</td> 
       <td>Challenges done</td>
       <td>Points gained</td>
