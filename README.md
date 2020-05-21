@@ -2,7 +2,7 @@
    <tr align="center" vlign="middle">
       <td>My spoj account </td> 
       <td>Easy tasks done</td> 
-      <td>Medium tasks done</td> 
+      <td>Medium<br>tasks done</td> 
       <td>Hard tasks done</td> 
       <td>Challenges done</td>
       <td>Points gained</td>
@@ -13,11 +13,11 @@
       <td><a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a> </td> 
       <td><B>133</td>
       <td><B>18</td> 
-      <td><B>0</td> 
+      <td><B>1</td> 
       <td><B>6</td>
-      <td><B>186,73</td>
-      <td><B>379</td>
-      <td><B>30.04.2020</td>
+      <td><B>188,23</td>
+      <td><B>376</td>
+      <td><B>21.05.2020</td>
    </tr>
 </table>
 
