@@ -162,7 +162,7 @@
       <td><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td> 
       <td align="center" vlign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
-          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf2.png"
+          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf3.png"
          width=42" height="32"> </a>
       <td>Simple program in BF (Brainfuck) language 
        <br>printing out a sentence required in the task</td>
@@ -172,7 +172,7 @@
       <td><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
-            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf2.png"
+            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf3.png"
          width=42" height="32"> </a></a>
       <td>Program in BF (Brainfuck) language that
           <br>determines the last binary digit of given decimal number</td>
