@@ -43,16 +43,16 @@
       <td>Euclidean algorithm</td>
    </tr>
    <tr>
-      <td>2</td> 
+      <td>2</td>                  
       <td><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
-      <td align="center" vlign="middle">
+      <td align="center" vlign="middle">&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=40" height="32"> </a>
          &nbsp&nbsp&nbsp&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/primes_t2.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>
+         width=30" height="30"> </a>&nbsp&nbsp
    
    </td> 
       <td>Sieve of Erathosthenes</td>
