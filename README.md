@@ -48,7 +48,7 @@
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/java.png"
-         width=25" height="25"> </a>
+         width=40" height="40"> </a>
    
    </td> 
       <td>Sieve of Erathosthenes</td>
