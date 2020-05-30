@@ -59,7 +59,6 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/primes_t2.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>&nbsp&nbsp
-   
    </td> 
       <td>Sieve of Erathosthenes</td>
    </tr>
@@ -86,7 +85,7 @@
          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Kadane.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>&nbsp&nbsp
+         width=30" height="30"> </a>&nbsp&nbsp</td>
       <td>Kadane's algorithm</td>
    </tr>
     <tr>
