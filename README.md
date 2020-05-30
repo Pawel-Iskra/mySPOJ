@@ -47,8 +47,10 @@
       <td><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
-         <img alt="Done" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Done.png"
-         width=25" height="25"> </a> </td> 
+         <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/java.png"
+         width=25" height="25"> </a>
+   
+   </td> 
       <td>Sieve of Erathosthenes</td>
    </tr>
    <tr>
