@@ -30,7 +30,7 @@
    <tr align="center" vlign="middle">
       <td> </td> 
       <td><B>Task (SPOJ link)</td> </th>
-      <td><B>My solution</td> 
+      <td><B>My solutions</td> 
       <td><B>Implementation</td> </th> 
    </tr>
    <tr>
