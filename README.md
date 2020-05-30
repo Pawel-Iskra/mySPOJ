@@ -47,12 +47,12 @@
       <td><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
-         <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/java.png"
+         <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=35" height="35"> </a>
          &nbsp&nbsp&nbsp&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/primes_t2.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=35" height="35"> </a>
+         width=30" height="30"> </a>
    
    </td> 
       <td>Sieve of Erathosthenes</td>
