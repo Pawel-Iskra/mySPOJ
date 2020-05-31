@@ -27,8 +27,8 @@
 <br>2. "private static class Reader" uses method "read" from DataInputStream class as a way of super fast input.
 <br>3. Usage of BufferedOutputStream and StringBuilder classes is my way of super fast output.
 
-<br><table align="center" vlign="middle">
-   <tr align="center" vlign="middle">
+<br><table align="center" valign="middle">
+   <tr align="center" valign="middle">
       <td> </td> 
       <td><B>Task (SPOJ link)</td> </th>
       <td><B>My solutions</td> 
@@ -46,7 +46,7 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>&nbsp&nbsp                        
       </td> 
-      <td>Euclidean algorithm</td>
+      <td align="center" valign="middle">Euclidean algorithm</td>
    </tr>
    <tr>
       <td>2</td>                  
