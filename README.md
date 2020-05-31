@@ -99,100 +99,100 @@
    </tr>
     <tr>
       <td>6</td> 
-      <td><a href="https://pl.spoj.com/problems/PP0506A/">Sort 1</a></td>
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0506A/">Sort 1</a></td>
       <td align="center" vlign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Sort1.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
-      <td>Insertion Sort</td>
+      <td align="center" valign="middle">Insertion Sort</td>
    </tr>
    <tr>
       <td>7</td> 
-      <td><a href="https://pl.spoj.com/problems/BAJTST/">Bajtockie Swieto Trojkata</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BAJTST/">Bajtockie Swieto Trojkata</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
-      <td>Heron's formula</td>
+      <td align="center" valign="middle">Heron's formula</td>
    </tr>
    <tr>
       <td>8</td> 
-      <td><a href="https://pl.spoj.com/problems/JWSPLIN/">Wspolliniowosc Punktow</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JWSPLIN/">Wspolliniowosc Punktow</a></td> 
       <td align="center" vlign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/WspolliniowoscPunktow.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
-      <td>Determinant of square matrix</td>
+      <td align="center" valign="middle">Determinant of square matrix</td>
    </tr>
     <tr>
       <td>9</td> 
-      <td><a href="https://pl.spoj.com/problems/SYS/">Systemy pozycyjne</a></td>
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/SYS/">Systemy pozycyjne</a></td>
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SystemyPozycyjne.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td>
-      <td>Convertion from decimal system <br>to hexadecimal and eleventh systems</td>
+      <td align="center" valign="middle">Convertion from decimal system <br>to hexadecimal and eleventh systems</td>
    </tr>
    <tr>
       <td>10</td> 
-      <td><a href="https://pl.spoj.com/problems/LENLCS/">LENLCS</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/LENLCS/">LENLCS</a></td> 
       <td align="center" vlign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LENLCS.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
-      <td>Algorithm determining <br>length of longest common subsequence</td>
+      <td align="center" valign="middle">Algorithm determining <br>length of longest common subsequence</td>
    </tr>
    <tr>
       <td>11</td> 
-      <td><a href="https://pl.spoj.com/problems/WI_SZYFR/">Szyfr Gronsfelda</a></td>
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/WI_SZYFR/">Szyfr Gronsfelda</a></td>
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SzyfrGronsfelda.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
-      <td>Gronsfeld cipher</td>
+      <td align="center" valign="middle">Gronsfeld cipher</td>
    </tr>
    <tr>
       <td>12</td>
-      <td><a href="https://pl.spoj.com/problems/KC008/">Sumy Wielokrotne</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/KC008/">Sumy Wielokrotne</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SumyWielokrotne.java">
         <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
-      <td>Low level number reading</td>
+      <td align="center" valign="middle">Low level number reading</td>
    </tr>
    <tr>
       <td>13</td> 
-      <td><a href="https://pl.spoj.com/problems/ETI06F2/">Ciekawa Wyliczanka</a></td>
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ETI06F2/">Ciekawa Wyliczanka</a></td>
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td>
-      <td>Linkage between following numbers containing
+      <td align="center" valign="middle">Linkage between following numbers containing
       <br>5 and 6 digits only and their binary representations </td>
    </tr>
     <tr>
       <td>14</td> 
-      <td><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td> 
       <td align="center" vlign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
          width=42" height="32"> </a>
-      <td>Simple program in BF (Brainfuck) language 
+      <td align="center" valign="middle">Simple program in BF (Brainfuck) language 
        <br>printing out a sentence required in the task</td>
    </tr>
     <tr>
       <td>15</td> 
-      <td><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
          width=42" height="32"> </a></a>
-      <td>Program in BF (Brainfuck) language that
+      <td align="center" valign="middle">Program in BF (Brainfuck) language that
           <br>determines the last binary digit of given decimal number</td>
    </tr>
    <tr>
       <td>16</td> 
-      <td><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td> 
       <td align="center" vlign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -201,7 +201,7 @@
    </tr>
     <tr>
       <td>17</td> 
-      <td><a href="https://pl.spoj.com/problems/BFN1/">Zabawne Dodawanie Piotrusia</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne Dodawanie Piotrusia</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
