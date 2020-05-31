@@ -27,7 +27,7 @@
 <br>2. "private static class Reader" uses method "read" from DataInputStream class as a way of super fast input.
 <br>3. Usage of BufferedOutputStream and StringBuilder classes is my way of super fast output.
 
-<br><table>
+<br><table align="center" vlign="middle">
    <tr align="center" vlign="middle">
       <td> </td> 
       <td><B>Task (SPOJ link)</td> </th>
