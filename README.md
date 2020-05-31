@@ -50,7 +50,7 @@
    </tr>
    <tr>
       <td>2</td>                  
-      <td><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
       <td align="center" vlign="middle">&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -60,11 +60,11 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>&nbsp&nbsp
    </td> 
-      <td>Sieve of Erathosthenes</td>
+      <td align="center" valign="middle">Sieve of Erathosthenes</td>
    </tr>
    <tr>
       <td>3</td> 
-      <td><a href="https://pl.spoj.com/problems/BINOMS/">BINOMS</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BINOMS/">BINOMS</a></td> 
       <td align="center" vlign="middle">&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BINOMS.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -73,11 +73,11 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Binoms.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>&nbsp&nbsp
-      </td> <td>Binomial coefficient</td>
+      </td> <td align="center" valign="middle">Binomial coefficient</td>
    </tr>
    <tr>
       <td>4</td> 
-      <td><a href="https://pl.spoj.com/problems/FZI_STEF/">Stefan</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FZI_STEF/">Stefan</a></td> 
       <td align="center" vlign="middle">&nbsp&nbsp
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Stefan.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -86,16 +86,16 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Kadane.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a> &nbsp&nbsp
-      </td> <td>Kadane's algorithm</td>
+      </td> <td align="center" valign="middle">Kadane's algorithm</td>
    </tr>
     <tr>
       <td>5</td> 
-      <td><a href="https://pl.spoj.com/problems/MWP2_2B/">Majatek Billa</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP2_2B/">Majatek Billa</a></td> 
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/MajatekBilla.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td>
-      <td>Fast modular exponentiation</td>
+      <td align="center" valign="middle">Fast modular exponentiation</td>
    </tr>
     <tr>
       <td>6</td> 
