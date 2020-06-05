@@ -197,7 +197,7 @@
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
-      <td align="center" vlign="middle">Shorten the given character string </td>
+      <td align="center" vlign="middle">Shorten the given string of characters </td>
    </tr>
     <tr>
       <td>17</td> 
