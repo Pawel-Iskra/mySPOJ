@@ -1,4 +1,4 @@
-<B>MY STATS:
+<B>MY STATISTICS:
 <table>
    <tr align="center" vlign="middle">
       <td>My spoj account </td> 
