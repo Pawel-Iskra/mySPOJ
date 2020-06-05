@@ -85,7 +85,7 @@
          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Kadane.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a> 
+         width=30" height="30"> </a> &nbsp&nbsp
       </td> <td align="center" valign="middle">Kadane's algorithm</td>
    </tr>
     <tr>
