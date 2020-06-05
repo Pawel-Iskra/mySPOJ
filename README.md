@@ -117,7 +117,12 @@
       <td align="center" vlign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
-         width=42" height="32"> </a></td> 
+         width=42" height="32"> </a>
+         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.cpp">
+         <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
+         width=30" height="30"> </a> &nbsp&nbsp
+   </td> 
       <td align="center" valign="middle">Heron's formula</td>
    </tr>
    <tr>
