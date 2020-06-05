@@ -206,7 +206,8 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
-      <td align="center" vlign="middle"> Adding a number and its reverse number until the sum is a palindrome </td>
+      <td align="center" vlign="middle"> Adding a number and its reverse number
+                                       <br>until the sum is a palindrome </td>
    </tr>
    
 </table>
