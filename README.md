@@ -2,10 +2,10 @@
 <table>
    <tr align="center" vlign="middle">
       <td>My spoj account </td> 
-      <td>Easy tasks done</td> 
-      <td>Medium tasks done</td> 
-      <td>Hard tasks done</td> 
-      <td>Challenges done</td>
+      <td>Easy tasks solved</td> 
+      <td>Medium tasks solved</td> 
+      <td>Hard tasks solved</td> 
+      <td>Challenges solved</td>
       <td>Points gained</td>
       <td>Position in ranking</td>
       <td>For the day</td> 
