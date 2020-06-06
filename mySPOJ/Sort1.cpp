@@ -1,3 +1,11 @@
+///////////////////////////////////////////////////////
+/// NOTES: ////////////////////////////////////////////
+/// TASK ID = 663, NAME: SORT 1 ///////////////////////
+/// link: https://pl.spoj.com/problems/PP0506A ////////
+/// TIME RESULT FOR THIS SOLUTION = 0,00s /////////////
+/// USAGE: INSERTION SORT /////////////////////////////
+///////////////////////////////////////////////////////
+
 #include <iostream>
 #include <math.h>
 #include <string>
@@ -10,41 +18,41 @@ public:
 };
 
 int main() {
-	int t, n, x, y, j, k, i;
-	double dist;
-	string name;
+    int t, n, x, y, j, k, i;
+    double dist;
+    string name;
 
-	cin >> t;
-	while (t-- > 0) {
-		Points points[1000];
-		i = 0;
-		cin >> n;
-		while (n-- > 0) {
-			Points point;
-			cin >> name;
-			cin >> x >> y;
-			dist = sqrt(x * x + y * y);
-			point.dist = dist;
-			name = name + " " + to_string(x) + " " + to_string(y);
-			point.name = name;
-			points[i] = point;
-			i++;
-		}
+    cin >> t;
+    while (t-- > 0) {
+	    Points points[1000];
+	    i = 0;
+	    cin >> n;
+	    while (n-- > 0) {
+		    Points point;
+		    cin >> name;
+		    cin >> x >> y;
+		    dist = sqrt(x * x + y * y);
+		    point.dist = dist;
+		    name = name + " " + to_string(x) + " " + to_string(y);
+		    point.name = name;
+		    points[i] = point;
+		    i++;
+	    }
 
-		for (j = 1; j < i; j++) {
-			Points temp = points[j];
-			k = j - 1;
-			while (k >= 0 && temp.dist < points[k].dist) {
-				points[k + 1] = points[k];
-				k--;
-			}
-			points[++k] = temp;
-		}
+	    for (j = 1; j < i; j++) {
+		    Points temp = points[j];
+		    k = j - 1;
+		    while (k >= 0 && temp.dist < points[k].dist) {
+			    points[k + 1] = points[k];
+			    k--;
+		    }
+		    points[++k] = temp;
+	    }
 
-		for (j = 0; j < i; j++) {
-			cout << points[j].name << "\n";
-		}
-		cout << "\n";
-	}
-	return 0;
+	    for (j = 0; j < i; j++) 
+		    cout << points[j].name << "\n";
+		
+	    cout << "\n";
+    }
+    return 0;
 }
