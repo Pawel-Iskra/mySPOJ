@@ -35,21 +35,21 @@
       <td><B>Implementation</td> </th> 
    </tr>
    <tr>
-      <td>1</td> 
+      <td align="center" valign="middle">1</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/NWW">NWW</a></td> 
-      <td align="center" valign="center">&nbsp&nbsp
+      <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
-      &nbsp&nbsp&nbsp&nbsp
+         &nbsp&nbsp&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>&nbsp&nbsp                        
+         width=30" height="30"> </a>                     
       </td> 
       <td align="center" valign="middle">Euclidean algorithm</td>
    </tr>
    <tr>
-      <td>2</td>                  
+      <td align="center" valign="middle">2</td>                  
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
       <td align="center" >&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
@@ -63,7 +63,7 @@
       <td align="center" valign="middle">Sieve of Erathosthenes</td>
    </tr>
    <tr>
-      <td>3</td> 
+      <td align="center" valign="middle">3</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BINOMS/">BINOMS</a></td> 
       <td align="center">&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BINOMS.java">
@@ -76,7 +76,7 @@
       </td> <td align="center" valign="middle">Binomial coefficient</td>
    </tr>
    <tr>
-      <td>4</td> 
+      <td align="center" valign="middle">4</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FZI_STEF/">Stefan</a></td> 
       <td align="center">&nbsp&nbsp
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Stefan.java">
@@ -89,7 +89,7 @@
       </td> <td align="center" valign="middle">Kadane's algorithm</td>
    </tr>
     <tr>
-      <td>5</td> 
+      <td align="center" valign="middle">5</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP2_2B/">Majatek Billa</a></td> 
       <td align="center">&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/MajatekBilla.java">
