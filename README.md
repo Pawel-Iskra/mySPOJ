@@ -1,5 +1,5 @@
 <B>MY STATISTICS:
-<table>
+<table align="center" valign="middle">
    <tr align="center" valign="middle">
       <td>My spoj account </td> 
       <td>Easy tasks solved</td> 
