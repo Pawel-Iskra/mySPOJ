@@ -37,7 +37,7 @@
    <tr>
       <td>1</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/NWW">NWW</a></td> 
-      <td align="center">&nbsp&nbsp
+      <td align="center" valign="center">&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
