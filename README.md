@@ -41,7 +41,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>&nbsp&nbsp                        
