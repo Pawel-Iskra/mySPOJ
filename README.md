@@ -147,7 +147,7 @@
     <tr>
       <td>9</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/SYS/">Systemy pozycyjne</a></td>
-      <td align="center" valign="middle">
+      <td align="center" valign="middle">&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SystemyPozycyjne.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
