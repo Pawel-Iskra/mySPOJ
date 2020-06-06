@@ -105,7 +105,7 @@
     <tr>
       <td>6</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0506A/">Sort 1</a></td>
-      <td align="center" vlign="middle">
+      <td align="center" vlign="middle">&nbsp&nbsp
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Sort1.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
@@ -119,7 +119,7 @@
    <tr>
       <td>7</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BAJTST/">Bajtockie Swieto Trojkata</a></td> 
-      <td align="center" vlign="middle">
+      <td align="center" vlign="middle">&nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
@@ -133,7 +133,7 @@
    <tr>
       <td>8</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JWSPLIN/">Wspolliniowosc Punktow</a></td> 
-      <td align="center" vlign="middle">
+      <td align="center" vlign="middle">&nbsp&nbsp
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/WspolliniowoscPunktow.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
