@@ -17,8 +17,7 @@ unsigned long long getLCM(unsigned long long a, unsigned long long b) {
     if (a > b) {
         big = a;
         small = b;
-    }
-    else {
+    } else {
         big = b;
         small = a;
     }
