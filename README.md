@@ -1,6 +1,6 @@
 <B>MY STATISTICS:
 <table>
-   <tr align="center" vlign="middle">
+   <tr align="center" valign="middle">
       <td>My spoj account </td> 
       <td>Easy tasks solved</td> 
       <td>Medium tasks solved</td> 
@@ -10,7 +10,7 @@
       <td>Position in ranking</td>
       <td>For the day</td> 
    </tr>
-   <tr align="center" vlign="middle">
+   <tr align="center" valign="middle">
       <td><a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a> </td> 
       <td><B>141</td>
       <td><B>19</td> 
@@ -217,7 +217,7 @@
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
-      <td align="center" vlign="middle">Shorten the given string of characters </td>
+      <td align="center" valign="middle">Shorten the given string of characters </td>
    </tr>
     <tr>
       <td>17</td> 
@@ -226,7 +226,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
-      <td align="center" vlign="middle"> Adding a number and its reverse number
+      <td align="center" valign="middle"> Adding a number and its reverse number
                                        <br>until the sum is a palindrome </td>
    </tr>
    
