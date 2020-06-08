@@ -40,13 +40,11 @@ public class LiczbyPierwsze {
 
         private void fillBuffer() throws IOException {
             bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
-            if (bytesRead == -1)
-                buffer[0] = -1;
+            if (bytesRead == -1) buffer[0] = -1;
         }
 
         private byte read() throws IOException {
-            if (bufferPointer == bytesRead)
-                fillBuffer();
+            if (bufferPointer == bytesRead) fillBuffer();
             return buffer[bufferPointer++];
         }
     }
@@ -61,14 +59,14 @@ public class LiczbyPierwsze {
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         StringBuilder strb = new StringBuilder();
+        OutputStream out = new BufferedOutputStream(System.out);
 
        int n = rd.nextInt();
         for (int i = 0; i < n; i++) {
             if (isPrime(rd.nextInt())) strb.append("TAK\n");
             else strb.append("NIE\n");
         }
-
-        OutputStream out = new BufferedOutputStream(System.out);
+        
         out.write(strb.toString().getBytes());
         out.flush();
     }
