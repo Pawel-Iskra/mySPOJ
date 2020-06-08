@@ -45,7 +45,6 @@ public class LENLCS {
                     }
                 }
             }
-            for(int k = 0; k < matrix.length; k++) System.out.println(Arrays.toString(matrix[k]));
             strb.append(matrix[len1][len2]).append("\n");
         }
         out.write(strb.toString().getBytes());
