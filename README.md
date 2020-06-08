@@ -180,7 +180,7 @@
       <td align="center" valign="middle">12</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0505D/">Gray code</a></td>
       <td align="center" valign="middle">
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Grey2.java">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/GrayCode.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
       <td align="center" valign="middle">Gray code</td>
