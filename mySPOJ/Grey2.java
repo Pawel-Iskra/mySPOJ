@@ -11,8 +11,8 @@ package mySPOJ;
 
 import java.io.*;
 
-public class Grey2 {
-    private static byte[][] getGreyCodeForNextLevel(byte[][] base) {
+public class Gray {
+    private static byte[][] getGrayCodeForNextLevel(byte[][] base) {
         int lineBase = base.length;
         int levBase = base[0].length;
 
@@ -53,7 +53,7 @@ public class Grey2 {
             int level = Integer.parseInt(rd.readLine());
             result = base;
             for (int j = 1; j < level; j++)
-                result = getGreyCodeForNextLevel(result);
+                result = getGrayCodeForNextLevel(result);
 
             for (int j = 0; j < result.length; j++) {
                 for (int k = 0; k < result[0].length; k++) {
