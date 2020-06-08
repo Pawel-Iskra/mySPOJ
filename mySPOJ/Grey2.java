@@ -7,7 +7,7 @@
 /// OF A GIVEN LENGTH IN THE ORDER OF GRAY CODE ///////
 ///////////////////////////////////////////////////////
 
-package _02_MEDIUM.Zad_16_Grey_Code;
+package mySPOJ;
 
 import java.io.*;
 
