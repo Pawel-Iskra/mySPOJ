@@ -172,8 +172,8 @@
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
-      <td align="center" valign="middle">Algorithm determining <br>
-                                         length of longest common subsequence</td>
+      <td align="center" valign="middle">Algorithm determining length<br>
+                                         of longest common subsequence</td>
    </tr>
    <tr>
       <td align="center" valign="middle">11</td> 
@@ -225,8 +225,9 @@
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
          width=42" height="32"> </a></td>
        <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
-      <td align="center" valign="middle">Simple program in BF (Brainfuck) language<br> 
-                                         that prints out a sentence required in the task</td>
+      <td align="center" valign="middle">Simple program in BF (Brainfuck)<br> 
+                                         language that prints out a sentence<br> 
+                                         required in the task</td>
    </tr>
     <tr>
       <td align="center" valign="middle">16</td> 
