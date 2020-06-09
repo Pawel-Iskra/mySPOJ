@@ -161,7 +161,8 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a></td>
          <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
-        <td align="center" valign="middle">Convertion from decimal system <br>to hexadecimal and eleventh systems</td>
+        <td align="center" valign="middle">Convertion from decimal system <br>
+                                           to hexadecimal and eleventh systems</td>
    </tr>
    <tr>
       <td align="center" valign="middle">10</td> 
@@ -171,7 +172,8 @@
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
-      <td align="center" valign="middle">Algorithm determining <br>length of longest common subsequence</td>
+      <td align="center" valign="middle">Algorithm determining <br>
+                                         length of longest common subsequence</td>
    </tr>
    <tr>
       <td align="center" valign="middle">11</td> 
@@ -211,8 +213,9 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
-      <td align="center" valign="middle">Linkage between following numbers containing<br>
-                                         5 and 6 digits only and their binary representations </td>
+      <td align="center" valign="middle">Linkage between following numbers<br> 
+                                         containing 5 and 6 digits only and<br> 
+                                         their binary representations</td>
    </tr>
     <tr>
       <td align="center" valign="middle">15</td> 
@@ -223,7 +226,7 @@
          width=42" height="32"> </a></td>
        <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Simple program in BF (Brainfuck) language<br> 
-       printing out a sentence required in the task</td>
+                                         that prints out a sentence required in the task</td>
    </tr>
     <tr>
       <td align="center" valign="middle">16</td> 
@@ -234,7 +237,8 @@
          width=42" height="32"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Program in BF (Brainfuck) language that<br>
-                                          determines the last binary digit of given decimal number</td>
+                                         determines the last binary digit<br> 
+                                         of given decimal number</td>
    </tr>
    <tr>
       <td align="center" valign="middle">17</td> 
