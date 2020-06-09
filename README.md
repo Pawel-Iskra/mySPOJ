@@ -182,7 +182,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SzyfrGronsfelda.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
-       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+       <td align="center" valign="middle"><a href="https://ideone.com/hX41SG">Tests</a></td>
        <td align="center" valign="middle">Gronsfeld cipher</td>
    </tr>
    <tr>
