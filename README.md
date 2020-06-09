@@ -132,7 +132,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a></td>
-       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+       <td align="center" valign="middle"><a href="https://ideone.com/tvO5Ho">Tests</a></td>
       <td align="center" valign="middle">Heron's formula</td>
    </tr>
    <tr>
