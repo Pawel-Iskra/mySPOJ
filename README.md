@@ -170,7 +170,11 @@
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LENLCS.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
-         width=42" height="32"> </a></td> 
+         width=42" height="32"> </a>
+         &nbsp&nbsp
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LENLCS.cpp">
+         <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
+         width=30" height="30"> </a></td> 
       <td align="center" valign="middle"><a href="https://ideone.com/xOS9gP">Tests</a></td>
       <td align="center" valign="middle">Algorithm determining length<br>
                                          of longest common subsequence</td>
