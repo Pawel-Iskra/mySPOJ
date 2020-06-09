@@ -214,7 +214,7 @@
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
          width=42" height="32"> </a></td>
-       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+       <td align="center" valign="middle"><a href="https://ideone.com/Hyxli3">Tests</a></td>
       <td align="center" valign="middle">Simple program in BF (Brainfuck)<br> 
                                          language that prints out a sentence<br> 
                                          required in the task</td>
