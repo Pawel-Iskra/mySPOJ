@@ -196,17 +196,7 @@
       <td align="center" valign="middle">Gray code</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">13</td>
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/KC008/">Sumy Wielokrotne</a></td> 
-      <td align="center" valign="middle">
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SumyWielokrotne.java">
-        <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
-         width=42" height="32"> </a></td> 
-      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
-      <td align="center" valign="middle">Low level number reading</td>
-   </tr>
-   <tr>
-      <td align="center" valign="middle">14</td> 
+      <td align="center" valign="middle">13</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ETI06F2/">Ciekawa Wyliczanka</a></td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.java">
@@ -218,7 +208,7 @@
                                          their binary representations</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">15</td> 
+      <td align="center" valign="middle">14</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
@@ -230,7 +220,7 @@
                                          required in the task</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">16</td> 
+      <td align="center" valign="middle">15</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
@@ -242,7 +232,7 @@
                                          of given decimal number</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">17</td> 
+      <td align="center" valign="middle">16</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
@@ -252,7 +242,7 @@
       <td align="center" valign="middle">Shorten the given string of characters</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">18</td> 
+      <td align="center" valign="middle">17</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne Dodawanie Piotrusia</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
