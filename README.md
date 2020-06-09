@@ -32,6 +32,7 @@
       <td> </td> 
       <td><B>Task (SPOJ link)</td> </th>
       <td><B>My solutions</td> 
+      <td><B>Tests</td>    
       <td><B>Implementation</td> </th> 
    </tr>
    <tr>
@@ -46,6 +47,7 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>                     
       </td> 
+      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Euclidean algorithm</td>
    </tr>
    <tr>
@@ -156,7 +158,7 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>
    </td>
-      <td align="center" valign="middle">Convertion from decimal system <br>to hexadecimal and eleventh systems</td>
+      <td align="center" valign="middle">Convertion from decimal system to hexadecimal and eleventh systems</td>
    </tr>
    <tr>
       <td align="center" valign="middle">10</td> 
@@ -202,7 +204,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td>
       <td align="center" valign="middle">Linkage between following numbers containing
-      <br>5 and 6 digits only and their binary representations </td>
+                                         5 and 6 digits only and their binary representations </td>
    </tr>
     <tr>
       <td align="center" valign="middle">15</td> 
@@ -222,7 +224,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
          width=42" height="32"> </a></a>
       <td align="center" valign="middle">Program in BF (Brainfuck) language that
-          <br>determines the last binary digit of given decimal number</td>
+                                          determines the last binary digit of given decimal number</td>
    </tr>
    <tr>
       <td align="center" valign="middle">17</td> 
@@ -241,7 +243,7 @@
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
       <td align="center" valign="middle"> Adding a number and its reverse number
-                                       <br>until the sum is a palindrome </td>
+                                           until the sum is a palindrome </td>
    </tr>
    
 </table>
