@@ -146,7 +146,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/WspolliniowoscPunktow.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a></td>
-         <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+         <td align="center" valign="middle"><a href="https://ideone.com/fmOmqH">Tests</a></td>
          <td align="center" valign="middle">Determinant of square matrix</td>
    </tr>
     <tr>
