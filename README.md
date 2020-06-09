@@ -245,7 +245,11 @@
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
-         width=42" height="32"> </a></td>
+         width=42" height="32"> </a>
+         &nbsp&nbsp
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.cpp">
+         <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
+         width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/2krgDA">Tests</a></td>
       <td align="center" valign="middle">Shorten the given string of characters</td>
    </tr>
