@@ -170,6 +170,7 @@
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LENLCS.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
+      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Algorithm determining <br>length of longest common subsequence</td>
    </tr>
    <tr>
@@ -189,6 +190,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/GrayCode.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
+      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Gray code</td>
    </tr>
    <tr>
