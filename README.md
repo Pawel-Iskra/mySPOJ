@@ -61,7 +61,8 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/primes_t2.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>
-   </td> 
+   </td>
+    <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Sieve of Erathosthenes</td>
    </tr>
    <tr>
@@ -74,8 +75,9 @@
          &nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Binoms.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>
-      </td> <td align="center" valign="middle">Binomial coefficient</td>
+         width=30" height="30"> </a> </td>
+       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+       <td align="center" valign="middle">Binomial coefficient</td>
    </tr>
    <tr>
       <td align="center" valign="middle">4</td> 
@@ -87,8 +89,9 @@
          &nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Kadane.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>
-      </td> <td align="center" valign="middle">Kadane's algorithm</td>
+         width=30" height="30"> </a></td>
+          <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+         <td align="center" valign="middle">Kadane's algorithm</td>
    </tr>
     <tr>
       <td align="center" valign="middle">5</td> 
@@ -100,9 +103,9 @@
          &nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/MajatekBilla.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>
-       </td>
-      <td align="center" valign="middle">Fast modular exponentiation</td>
+         width=30" height="30"> </a></td>
+         <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td> 
+        <td align="center" valign="middle">Fast modular exponentiation</td>
    </tr>
     <tr>
       <td align="center" valign="middle">6</td> 
@@ -114,9 +117,9 @@
          &nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Sort1.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>
-          </td> 
-      <td align="center" valign="middle">Insertion Sort</td>
+         width=30" height="30"> </a></td>
+         <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+        <td align="center" valign="middle">Insertion Sort</td>
    </tr>
    <tr>
       <td align="center" valign="middle">7</td> 
@@ -128,8 +131,8 @@
          &nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>
-   </td> 
+         width=30" height="30"> </a></td>
+       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Heron's formula</td>
    </tr>
    <tr>
@@ -142,9 +145,9 @@
          &nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/WspolliniowoscPunktow.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>
-   </td> 
-      <td align="center" valign="middle">Determinant of square matrix</td>
+         width=30" height="30"> </a></td>
+         <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+         <td align="center" valign="middle">Determinant of square matrix</td>
    </tr>
     <tr>
       <td align="center" valign="middle">9</td> 
@@ -156,9 +159,9 @@
         &nbsp&nbsp
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SystemyPozycyjne.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a>
-   </td>
-      <td align="center" valign="middle">Convertion from decimal system to hexadecimal and eleventh systems</td>
+         width=30" height="30"> </a></td>
+         <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+        <td align="center" valign="middle">Convertion from decimal system to hexadecimal and eleventh systems</td>
    </tr>
    <tr>
       <td align="center" valign="middle">10</td> 
@@ -176,7 +179,8 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SzyfrGronsfelda.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
-      <td align="center" valign="middle">Gronsfeld cipher</td>
+       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
+       <td align="center" valign="middle">Gronsfeld cipher</td>
    </tr>
    <tr>
       <td align="center" valign="middle">12</td> 
@@ -194,6 +198,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SumyWielokrotne.java">
         <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td> 
+      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Low level number reading</td>
    </tr>
    <tr>
@@ -203,6 +208,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Linkage between following numbers containing
                                          5 and 6 digits only and their binary representations </td>
    </tr>
@@ -212,9 +218,10 @@
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
-         width=42" height="32"> </a>
+         width=42" height="32"> </a></td>
+       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Simple program in BF (Brainfuck) language 
-       <br>printing out a sentence required in the task</td>
+       printing out a sentence required in the task</td>
    </tr>
     <tr>
       <td align="center" valign="middle">16</td> 
@@ -222,7 +229,8 @@
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
-         width=42" height="32"> </a></a>
+         width=42" height="32"> </a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Program in BF (Brainfuck) language that
                                           determines the last binary digit of given decimal number</td>
    </tr>
@@ -232,7 +240,8 @@
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
-         width=42" height="32"> </a>
+         width=42" height="32"> </a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle">Shorten the given string of characters </td>
    </tr>
     <tr>
@@ -241,7 +250,8 @@
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
-         width=42" height="32"> </a>
+         width=42" height="32"> </a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
       <td align="center" valign="middle"> Adding a number and its reverse number
                                            until the sum is a palindrome </td>
    </tr>
