@@ -161,8 +161,8 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a></td>
          <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
-        <td align="center" valign="middle">Convertion from decimal system <br>
-                                           to hexadecimal and eleventh systems</td>
+        <td align="center" valign="middle">Convertion from decimal system to<br>
+                                           hexadecimal and eleventh systems</td>
    </tr>
    <tr>
       <td align="center" valign="middle">10</td> 
@@ -237,8 +237,8 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
          width=42" height="32"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/Gx3X1k">Tests</a></td>
-      <td align="center" valign="middle">Program in BF (Brainfuck) language that<br>
-                                         determines the last binary digit<br> 
+      <td align="center" valign="middle">Program in BF (Brainfuck) language<br>
+                                         that determines the last binary digit<br> 
                                          of given decimal number</td>
    </tr>
    <tr>
