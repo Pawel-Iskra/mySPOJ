@@ -267,9 +267,8 @@
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/AhWFaw">Tests</a></td>
       <td align="center" valign="middle">Sieve of Eratosthenes<br> 
-                                         Calculating amounts of<br>
-                                         prime numbers in the <br>
-                                         given range</td>
+                                         Calculating amounts of prime<br>
+                                         numbers in the given range </td>
    </tr>
     <tr>
       <td align="center" valign="middle">17</td> 
