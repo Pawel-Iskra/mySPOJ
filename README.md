@@ -63,7 +63,7 @@
          width=30" height="30"> </a>
    </td>
     <td align="center" valign="middle"><a href="https://ideone.com/jmYSsT">Tests</a></td>
-      <td align="center" valign="middle">Sieve of Erathosthenes</td>
+      <td align="center" valign="middle">Sieve of Eratosthenes</td>
    </tr>
    <tr>
       <td align="center" valign="middle">3</td> 
