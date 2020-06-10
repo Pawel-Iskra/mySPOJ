@@ -42,8 +42,7 @@ int main() {
 
 		cout << baseChars;
 	}
-	else
-		for (i = 0; i < length; i++) cout << (5);
+	else for (i = 0; i < length; i++) cout << (5);
 
 	return 0;
 }
