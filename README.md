@@ -254,8 +254,25 @@
       <td align="center" valign="middle">Finding a position in an array<br> 
                                          where the prefix aligns the suffix</td>
    </tr>
-    <tr>
+   <tr>
       <td align="center" valign="middle">16</td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/DYZIO2/">Dyzio</a></td>
+      <td align="center" valign="middle">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.java">
+            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
+         width=42" height="32"> </a>
+         &nbsp&nbsp
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.cpp">
+         <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
+         width=30" height="30"> </a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/AhWFaw">Tests</a></td>
+      <td align="center" valign="middle">Sieve of Eratosthenes<br> 
+                                         Calculating amounts of<br>
+                                         prime numbers in the <br>
+                                         given range</td>
+   </tr>
+    <tr>
+      <td align="center" valign="middle">17</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
@@ -267,7 +284,7 @@
                                          required in the task</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">17</td> 
+      <td align="center" valign="middle">18</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
@@ -279,7 +296,7 @@
                                          of given decimal number</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">18</td> 
+      <td align="center" valign="middle">19</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
@@ -293,7 +310,7 @@
       <td align="center" valign="middle">Shorten the given string of characters</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">19</td> 
+      <td align="center" valign="middle">20</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne Dodawanie Piotrusia</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
