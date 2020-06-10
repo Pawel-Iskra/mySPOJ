@@ -22,31 +22,23 @@ int main() {
 	cin >> n;
 	binaryN = bitset<32>(n).to_string();
 	while (binaryN[0] == '0') binaryN.erase(0, 1);
-	//cout << "binaryN=" << binaryN << "\n";
 	length = binaryN.length();
-	//cout << "length=" << length << "\n";
 
 	ifContains = boost::algorithm::contains(binaryN, "0");
 	if (ifContains) {
 		length--;
 		for (i = 0; i < length; i++) baseChars.append("5");
-		//cout << "baseChars=" << baseChars << "\n";
 		baseNr = 1;
 		for (i = 0; i < length; i++) baseNr = baseNr * 2;
 		baseNr--;
-		//cout << "baseNr=" << baseNr << "\n";
 		diff = n - baseNr;
-		//cout << "diff=" << diff << "\n";
-		baseLen = baseChars.length();
-		//cout << "baseLen=" << baseLen << "\n";
 		diffChars = bitset<32>(diff).to_string();
 		while (diffChars[0] == '0') diffChars.erase(0, 1);
-		//cout << "diffChars=" << diffChars << "\n";
+		
+		baseLen = baseChars.length();
 		diffLen = diffChars.length();
-		//cout << "diffLen=" << diffLen << "\n";
 		for (int i = 0; i < diffLen; i++)
-			baseChars[baseLen - i - 1] = (char)(baseChars[baseLen - i - 1]
-				+ diffChars[diffLen - i - 1] - 48);
+			baseChars[baseLen - i - 1] = (char)(baseChars[baseLen - i - 1] + diffChars[diffLen - i - 1] - 48);
 
 		cout << baseChars;
 	}
