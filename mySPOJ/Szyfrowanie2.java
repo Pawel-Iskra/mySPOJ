@@ -1,4 +1,11 @@
-package _02_MEDIUM.Zad_13_Szyfrowanie2;
+///////////////////////////////////////////////////////
+/// NOTES: ////////////////////////////////////////////
+/// TASK ID = 1432, NAME: SZYFFROWANIE 2 //////////////
+/// link: https://pl.spoj.com/problems/JSZYFR2 ////////
+/// TIME RESULT FOR THIS SOLUTION = 0,12s /////////////
+///////////////////////////////////////////////////////
+
+package SPOJ;
 
 import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
