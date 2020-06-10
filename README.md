@@ -209,7 +209,11 @@
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
-         width=42" height="32"> </a></td>
+         width=42" height="32"> </a>
+         &nbsp&nbsp
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.cpp">
+         <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
+         width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/wEZH69">Tests</a></td>
       <td align="center" valign="middle">Linkage between following numbers<br> 
                                          containing 5 and 6 digits only and<br> 
