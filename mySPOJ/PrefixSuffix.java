@@ -1,4 +1,11 @@
-package _01_EASY._03_Third_Fifty.Zad_137_Prefiks_sufiks;
+/////////////////////////////////////////////////////////
+/// NOTES: //////////////////////////////////////////////
+/// TASK ID = 11059, NAME: Prefiks równoważący sufiks ///
+/// link: https://pl.spoj.com/problems/MWP4_1E //////////
+/// TIME RESULT FOR THIS SOLUTION = 0,21s ///////////////
+/////////////////////////////////////////////////////////
+
+package MySPOJ;
 
 import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
