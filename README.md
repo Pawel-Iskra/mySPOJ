@@ -311,7 +311,7 @@
    </tr>
     <tr>
       <td align="center" valign="middle">20</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne Dodawanie Piotrusia</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne<br> Dodawanie Piotrusia</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
