@@ -243,7 +243,7 @@
       <td align="center" valign="middle">15</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP4_1E/">PrefiksSufiks</a></td>
       <td align="center" valign="middle">
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/PrefixSufix.java">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/PrefixSuffix.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
          &nbsp&nbsp
