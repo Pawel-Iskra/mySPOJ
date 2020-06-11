@@ -11,9 +11,10 @@
 using namespace std;
 
 bool isPrime(int x) {
+	int sqr, i;
 	if (x % 2 == 0) return x == 2;
-	int sqr = (int) sqrt(x) + 1;
-	for (int i = 3; i < sqr; i++) if (x % i == 0) return false;
+	sqr = (int) sqrt(x) + 1;
+	for (i = 3; i < sqr; i++) if (x % i == 0) return false;
 	return x > 1;
 }
 
