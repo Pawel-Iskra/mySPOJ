@@ -12,13 +12,13 @@
    </tr>
    <tr align="center" valign="middle">
       <td><a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a> </td> 
-      <td><B>144</td>
+      <td><B>150</td>
       <td><B>20</td> 
       <td><B>1</td> 
       <td><B>6</td>
-      <td><B>201,43</td>
-      <td><B>336</td>
-      <td><B>11.06.2020</td>
+      <td><B>208,43</td>
+      <td><B>314</td>
+      <td><B>11.10.2020</td>
    </tr>
 </table>
 
