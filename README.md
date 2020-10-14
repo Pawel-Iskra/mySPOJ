@@ -12,7 +12,7 @@
    </tr>
    <tr align="center" valign="middle">
       <td><a href="https://pl.spoj.com/users/paweliszcz_20k/"> mySPOJ</a> </td> 
-      <td><B>161</td>
+      <td><B>162</td>
       <td><B>20</td> 
       <td><B>1</td> 
       <td><B>6</td>
