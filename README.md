@@ -39,7 +39,7 @@
     <tr>
       <td align="center" valign="middle">1</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN2/">Piotruś w Krainie<br> Liczb Pierwszych</a></td>
-      <td align="center" valign="middle">Print out all prime numbers<br> in given range</td>
+      <td align="center" valign="middle">Print out all prime numbers ascending in given range</td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/KrainaLiczbPierwszych.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -50,7 +50,8 @@
    </tr>
    <tr>
       <td align="center" valign="middle">2</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/NWW">NWW</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/NWW">NWW</a></td>
+      <td align="center" valign="middle">Print out least common multiple for given numbers</td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -65,7 +66,8 @@
    </tr>
    <tr>
       <td align="center" valign="middle">3</td>                  
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td>
+      <td align="center" valign="middle">Print out TAK if number is prime or NIE if it is not</td>                                                                                 
       <td align="center" >
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -80,7 +82,8 @@
    </tr>
    <tr>
       <td align="center" valign="middle">4</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BINOMS/">BINOMS</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BINOMS/">BINOMS</a></td>
+      <td align="center" valign="middle">Determine the number of different k-element subsets of the n-element set</td>                                                                                 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BINOMS.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -95,6 +98,7 @@
    <tr>
       <td align="center" valign="middle">5</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FZI_STEF/">Stefan</a></td> 
+      <td align="center" valign="middle">Find out the maximum subarray sum in given array</td>                                     
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Stefan.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -109,6 +113,7 @@
     <tr>
       <td align="center" valign="middle">6</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP2_2B/">Majatek Billa</a></td> 
+      <td align="center" valign="middle">Determine the modulo for the given power</td>                                                                                 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/MajatekBilla.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -123,6 +128,7 @@
     <tr>
       <td align="center" valign="middle">7</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0506A/">Sort 1</a></td>
+      <td align="center" valign="middle">Sort points by their distance from the center of the coordinate system</td>                                                                                   
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Sort1.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -136,7 +142,8 @@
    </tr>
    <tr>
       <td align="center" valign="middle">8</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BAJTST/">Bajtockie<br>Swieto Trojkata</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BAJTST/">Bajtockie<br>Swieto Trojkata</a></td>
+      <td align="center" valign="middle">Calculate the use of chalk to color the triangles</td>                                                                                 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -150,7 +157,8 @@
    </tr>
    <tr>
       <td align="center" valign="middle">9</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JWSPLIN/">Wspolliniowosc<br>Punktow</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JWSPLIN/">Wspolliniowosc<br>Punktow</a></td>
+      <td align="center" valign="middle">Print out Tak when given three points are collinear or the word NIE when they are not</td>                                                                                  
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/WspolliniowoscPunktow.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -165,6 +173,7 @@
     <tr>
       <td align="center" valign="middle">10</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/SYS/">Systemy pozycyjne</a></td>
+      <td align="center" valign="middle">For the given number, print its hexadecimal and eleventh system representation</td>                                                                              
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SystemyPozycyjne.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -179,7 +188,8 @@
    </tr>
    <tr>
       <td align="center" valign="middle">11</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/LENLCS/">LENLCS</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/LENLCS/">LENLCS</a></td>
+      <td align="center" valign="middle">Determine the length of the longest common substring</td>
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LENLCS.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -195,6 +205,7 @@
    <tr>
       <td align="center" valign="middle">12</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/WI_SZYFR/">Szyfr Gronsfelda</a></td>
+      <td align="center" valign="middle">Depending on given command, encrypt or decrypt messages using the Gronsfeld cipher</td>                                                                                   
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SzyfrGronsfelda.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -209,6 +220,7 @@
    <tr>
       <td align="center" valign="middle">13</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0505D/">Gray code</a></td>
+      <td align="center" valign="middle">For given number, print out all possible binary strings in Gray code order</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/GrayCode.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -223,6 +235,7 @@
    <tr>
       <td align="center" valign="middle">14</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ETI06F2/">Ciekawa<br>Wyliczanka</a></td>
+      <td align="center" valign="middle">For the given value of k, calculate what is the k-th interesting number</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -239,6 +252,7 @@
     <tr>
       <td align="center" valign="middle">15</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JSZYFR2/">Szyfrowanie2</a></td>
+      <td align="center" valign="middle">Print out a prime number that decrypts the message and the decoded word. If the code cannot be read, print NIECZYTELNE</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Szyfrowanie2.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -255,6 +269,7 @@
    <tr>
       <td align="center" valign="middle">16</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP4_1E/">PrefiksSufiks</a></td>
+      <td align="center" valign="middle">Find out a position in an array where the prefix aligns the suffix</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/PrefixSuffix.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -270,6 +285,7 @@
    <tr>
       <td align="center" valign="middle">17</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/DYZIO2/">Dyzio</a></td>
+      <td align="center" valign="middle">Calculate the number of prime numbers in the given range</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -285,7 +301,8 @@
    </tr>
     <tr>
       <td align="center" valign="middle">18</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td>
+      <td align="center" valign="middle">Using BrainFuck language, print out the given sentence</td>                                                                                 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
@@ -297,7 +314,8 @@
    </tr>
     <tr>
       <td align="center" valign="middle">19</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td>
+      <td align="center" valign="middle">Using BrainFuck language, determine the last binary digit of the given decimal number</td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
@@ -309,7 +327,8 @@
    </tr>
    <tr>
       <td align="center" valign="middle">20</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td>
+      <td align="center" valign="middle">Shorten the given string of characters by the given method</td>                                                                                   
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -323,7 +342,8 @@
    </tr>
     <tr>
       <td align="center" valign="middle">21</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne<br> Dodawanie Piotrusia</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne<br> Dodawanie Piotrusia</a></td>
+      <td align="center" valign="middle">Print the palindrome and the number of additions to receive it</td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
