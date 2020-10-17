@@ -46,7 +46,7 @@
          width=42" height="32"> </a>                     
       </td>
       <td align="center" valign="middle"><a href="https://ideone.com/FQwX4L">Ideone Test</a></td>
-      <td align="center" valign="middle">Multithreading<br> Sieve of Eratosthenes</td>
+      <td align="center" valign="middle">Multithreading,<br> Sieve of Eratosthenes</td>
    </tr>
    <tr>
       <td align="center" valign="middle">2</td> 
