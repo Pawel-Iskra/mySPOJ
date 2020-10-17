@@ -1,4 +1,12 @@
-package _03_HARD.Zad_03_Piotrus_w_krainie_liczb_pierwszych;
+///////////////////////////////////////////////////////////////
+/// NOTES: ////////////////////////////////////////////////////
+/// TASK ID = 569, NAME: PIOTRUŚ W KRAINIE LICZB PIERWSZYCH ///
+/// link: https://pl.spoj.com/problems/BFN2/ //////////////////
+/// TIME RESULT FOR THIS SOLUTION =       /////////////////////
+/// USAGE: MULTITHREADING, SIEVE OF ERATOSTHENES //////////////
+///////////////////////////////////////////////////////////////
+
+package mySPOJ;
 
 import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
