@@ -67,7 +67,7 @@
    <tr>
       <td align="center" valign="middle">3</td>                  
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td>
-      <td align="center" valign="middle">Print out TAK if the number<br>is prime or NIE if it is not</td>                                                                                 
+      <td align="center" valign="middle">Print out TAK<br>if the number is prime<br>or NIE if it is not</td>                                                                                 
       <td align="center" >
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">&nbsp
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
