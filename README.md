@@ -203,7 +203,7 @@
    <tr>
       <td align="center" valign="middle">12</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/WI_SZYFR/">Szyfr Gronsfelda</a></td>
-      <td align="center" valign="middle">Depending on given command<br>encrypt or decrypt message<br>using the Gronsfeld cipher</td>                                                                                   
+      <td align="center" valign="middle">Depending on command<br>encrypt or decrypt message<br>using the Gronsfeld cipher</td>                                                                                   
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SzyfrGronsfelda.java">&nbsp
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
