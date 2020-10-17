@@ -67,7 +67,7 @@
    <tr>
       <td align="center" valign="middle">3</td>                  
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td>
-      <td align="center" valign="middle">Print out TAK if number<br>is prime or NIE<br>if it is not</td>                                                                                 
+      <td align="center" valign="middle">Print out TAK if the number<br>is prime or<br>NIE if it is not</td>                                                                                 
       <td align="center" >
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -83,7 +83,7 @@
    <tr>
       <td align="center" valign="middle">4</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BINOMS/">BINOMS</a></td>
-      <td align="center" valign="middle">Determine the number of<br>different k-element subsets<br>of the n-element set</td>                                                                                 
+      <td align="center" valign="middle">Determine the number<br>of different k-element subsets<br>of the n-element set</td>                                                                                 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BINOMS.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -143,7 +143,7 @@
    <tr>
       <td align="center" valign="middle">8</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BAJTST/">Bajtockie<br>Swieto Trojkata</a></td>
-      <td align="center" valign="middle">Calculate the use of<br>chalk to color the triangles</td>                                                                                 
+      <td align="center" valign="middle">Calculate the use of chalk<br>to color the triangles</td>                                                                                 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -218,7 +218,7 @@
    <tr>
       <td align="center" valign="middle">13</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0505D/">Gray code</a></td>
-      <td align="center" valign="middle">For given number, print out<br>all possible binary strings<br>in Gray code order</td>                                                                                  
+      <td align="center" valign="middle">For given number<br>print out all possible<br>binary strings<br>in Gray code order</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/GrayCode.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -233,7 +233,7 @@
    <tr>
       <td align="center" valign="middle">14</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ETI06F2/">Ciekawa<br>Wyliczanka</a></td>
-      <td align="center" valign="middle">For the given value of k<br>calculate what is<br>the k-th interesting number</td>                                                                                  
+      <td align="center" valign="middle">For the given k calculate<br>the k-th interesting number</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -263,7 +263,7 @@
    <tr>
       <td align="center" valign="middle">16</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP4_1E/">PrefiksSufiks</a></td>
-      <td align="center" valign="middle">Find out a position in<br>an array that<br>the prefix aligns the suffix</td>                                                                                  
+      <td align="center" valign="middle">Find out a position<br>in an array that the prefix<br>aligns the suffix</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/PrefixSuffix.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
@@ -304,7 +304,7 @@
     <tr>
       <td align="center" valign="middle">19</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td>
-      <td align="center" valign="middle">Using BrainFuck language<br>determine the last binary digit<br>of the given decimal number</td>
+      <td align="center" valign="middle">Using BrainFuck language<br>get the last binary digit<br>of the decimal number</td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
@@ -315,7 +315,7 @@
    <tr>
       <td align="center" valign="middle">20</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td>
-      <td align="center" valign="middle">Shorten the given string<br>of characters<br>using the given method</td>                                                                                   
+      <td align="center" valign="middle">Shorten the given<br>string of characters<br>using the given method</td>                                                                                   
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
           <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
