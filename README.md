@@ -32,7 +32,7 @@
       <td> </td> 
       <td><B>Task Name<br>(SPOJ link)</td> </th>
       <td><B>My solutions</td> 
-      <td><B>Test on Ideone</td>    
+      <td><B>Test on Ideone.com</td>    
       <td><B>Implementation</td> </th> 
    </tr>
     <tr>
