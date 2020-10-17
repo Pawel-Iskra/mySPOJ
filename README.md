@@ -53,7 +53,7 @@
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/NWW">NWW</a></td>
       <td align="center" valign="middle">Print out least common<br>multiple for given numbers</td>
       <td align="center" valign="middle">
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">&nbsp
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>
          <br>
