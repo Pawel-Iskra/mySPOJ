@@ -128,7 +128,7 @@
     <tr>
       <td align="center" valign="middle">7</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0506A/">Sort 1</a></td>
-      <td align="center" valign="middle">Sort points by their<br>distance from the center of<br>the coordinate system</td>                                                                                   
+      <td align="center" valign="middle">Sort points by their<br>distance from the center<br>of the coordinate system</td>                                                                                   
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Sort1.java">
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
