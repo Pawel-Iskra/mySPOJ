@@ -35,8 +35,19 @@
       <td><B>Tests</td>    
       <td><B>Implementation</td> </th> 
    </tr>
-   <tr>
+    <tr>
       <td align="center" valign="middle">1</td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN2/">Piotruś w Krainie Liczb Pierwszych</a></td> 
+      <td align="center" valign="middle">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/KrainaLiczbPierwszych.java">
+         <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
+         width=42" height="32"> </a>                     
+      </td>
+      <td align="center" valign="middle"><a href="https://ideone.com/FQwX4L">Tests</a></td>
+      <td align="center" valign="middle">Multithreading<br> Sieve of Eratosthenes</td>
+   </tr>
+   <tr>
+      <td align="center" valign="middle">2</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/NWW">NWW</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW2.java">
@@ -51,7 +62,7 @@
       <td align="center" valign="middle">Euclidean algorithm</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">2</td>                  
+      <td align="center" valign="middle">3</td>                  
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td> 
       <td align="center" >
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LiczbyPierwsze.java">
@@ -66,7 +77,7 @@
       <td align="center" valign="middle">Sieve of Eratosthenes</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">3</td> 
+      <td align="center" valign="middle">4</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BINOMS/">BINOMS</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BINOMS.java">
@@ -80,7 +91,7 @@
        <td align="center" valign="middle">Binomial coefficient</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">4</td> 
+      <td align="center" valign="middle">5</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FZI_STEF/">Stefan</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Stefan.java">
@@ -94,7 +105,7 @@
          <td align="center" valign="middle">Kadane's algorithm</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">5</td> 
+      <td align="center" valign="middle">6</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP2_2B/">Majatek Billa</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/MajatekBilla.java">
@@ -108,7 +119,7 @@
         <td align="center" valign="middle">Fast modular exponentiation</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">6</td> 
+      <td align="center" valign="middle">7</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0506A/">Sort 1</a></td>
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Sort1.java">
@@ -122,7 +133,7 @@
         <td align="center" valign="middle">Insertion Sort</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">7</td> 
+      <td align="center" valign="middle">8</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BAJTST/">Bajtockie<br>Swieto Trojkata</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.java">
@@ -136,7 +147,7 @@
       <td align="center" valign="middle">Heron's formula</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">8</td> 
+      <td align="center" valign="middle">9</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JWSPLIN/">Wspolliniowosc<br>Punktow</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/WspolliniowoscPunktow.java">
@@ -150,7 +161,7 @@
          <td align="center" valign="middle">Determinant of square matrix</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">9</td> 
+      <td align="center" valign="middle">10</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/SYS/">Systemy pozycyjne</a></td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SystemyPozycyjne.java">
@@ -165,7 +176,7 @@
                                            hexadecimal and eleventh systems</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">10</td> 
+      <td align="center" valign="middle">11</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/LENLCS/">LENLCS</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LENLCS.java">
@@ -180,7 +191,7 @@
                                          of longest common subsequence</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">11</td> 
+      <td align="center" valign="middle">12</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/WI_SZYFR/">Szyfr Gronsfelda</a></td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SzyfrGronsfelda.java">
@@ -194,7 +205,7 @@
        <td align="center" valign="middle">Gronsfeld cipher</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">12</td> 
+      <td align="center" valign="middle">13</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PP0505D/">Gray code</a></td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/GrayCode.java">
@@ -208,7 +219,7 @@
       <td align="center" valign="middle">Gray code</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">13</td> 
+      <td align="center" valign="middle">14</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ETI06F2/">Ciekawa<br>Wyliczanka</a></td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.java">
@@ -224,7 +235,7 @@
                                          their binary representations</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">14</td> 
+      <td align="center" valign="middle">15</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JSZYFR2/">Szyfrowanie2</a></td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Szyfrowanie2.java">
@@ -240,7 +251,7 @@
                                          the prime number</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">15</td> 
+      <td align="center" valign="middle">16</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP4_1E/">PrefiksSufiks</a></td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/PrefixSuffix.java">
@@ -255,7 +266,7 @@
                                          where the prefix aligns the suffix</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">16</td> 
+      <td align="center" valign="middle">17</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/DYZIO2/">Dyzio</a></td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.java">
@@ -271,7 +282,7 @@
                                          numbers in the given range </td>
    </tr>
     <tr>
-      <td align="center" valign="middle">17</td> 
+      <td align="center" valign="middle">18</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFEVIL/">BF Wprawka</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_Wprawka.bf">
@@ -283,7 +294,7 @@
                                          required in the task</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">18</td> 
+      <td align="center" valign="middle">19</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
@@ -295,7 +306,7 @@
                                          of given decimal number</td>
    </tr>
    <tr>
-      <td align="center" valign="middle">19</td> 
+      <td align="center" valign="middle">20</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FLAMASTE/">Flamaster</a></td> 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.java">
@@ -309,7 +320,7 @@
       <td align="center" valign="middle">Shorten the given string of characters</td>
    </tr>
     <tr>
-      <td align="center" valign="middle">20</td> 
+      <td align="center" valign="middle">21</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne<br> Dodawanie Piotrusia</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">
