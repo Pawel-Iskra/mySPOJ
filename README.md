@@ -158,7 +158,7 @@
    <tr>
       <td align="center" valign="middle">9</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JWSPLIN/">Wspolliniowosc<br>Punktow</a></td>
-      <td align="center" valign="middle">Print out Tak when given<br>three points are collinear<br>or NIE when they are not</td>                                                                                  
+      <td align="center" valign="middle">Print out TAK when given<br>three points are collinear<br>or NIE when they are not</td>                                                                                  
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/WspolliniowoscPunktow.java">
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
