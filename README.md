@@ -340,7 +340,7 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/wMlQky">Ideone Test</a></td>
-      <td align="center" valign="middle">Adding a number and its<br>reverse number until<br>the sum is a palindrome</td>
+      <td align="center" valign="middle"> - </td>
    </tr>
    
 </table>
