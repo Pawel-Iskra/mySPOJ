@@ -102,7 +102,7 @@ public class KrainaLiczbPierwszych {
         Reader rd = new Reader();
         BufferedOutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb;
-        final int numOfThreads = 2;
+        final int numOfThreads = 4;
 
         int tests = rd.nextInt();
         while (tests-- > 0) {
