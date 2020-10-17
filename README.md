@@ -303,7 +303,7 @@
    </tr>
     <tr>
       <td align="center" valign="middle">19</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF LastBinaryDigit</a></td>
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ODDBF/">BF Last Binary Digit</a></td>
       <td align="center" valign="middle">Using BrainFuck language<br>get the last binary digit<br>of the decimal number</td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BF_LastBinaryDigit.bf">
