@@ -37,7 +37,7 @@
    </tr>
     <tr>
       <td align="center" valign="middle">1</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN2/">Piotruś w Krainie Liczb Pierwszych</a></td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN2/">Piotruś w Krainie<br> Liczb Pierwszych</a></td> 
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/KrainaLiczbPierwszych.java">
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
