@@ -248,7 +248,7 @@
     <tr>
       <td align="center" valign="middle">15</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JSZYFR2/">Szyfrowanie2</a></td>
-      <td align="center" valign="middle">Determine the prime number<br>that decrypts the message<br>and decrypted message</td>                                                                                  
+      <td align="center" valign="middle">Find out the prime number<br>that decrypts the message<br>and decrypted message</td>                                                                                  
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Szyfrowanie2.java">&nbsp
             <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
