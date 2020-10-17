@@ -31,7 +31,7 @@
    <tr align="center" valign="middle">
       <td> </td> 
       <td><B>Task name<br>(SPOJ link)</td> </th>
-      <td><B>Task goal<br>(SPOJ link)</td> </th>
+      <td><B>Task goal</td> </th>
       <td><B>My solution</td> 
       <td><B>Test on<br> Ideone.com</td>    
       <td><B>Implementation</td> </th> 
