@@ -183,7 +183,7 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a></td>
          <td align="center" valign="middle"><a href="https://ideone.com/5teljJ">Ideone Test</a></td>
-        <td align="center" valign="middle"> - </td>
+        <td align="center" valign="middle">Number convertions</td>
    </tr>
    <tr>
       <td align="center" valign="middle">11</td> 
