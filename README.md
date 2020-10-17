@@ -330,7 +330,7 @@
     <tr>
       <td align="center" valign="middle">21</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/BFN1/">Zabawne<br> Dodawanie Piotrusia</a></td>
-      <td align="center" valign="middle">Print the palindrome<br>and the number of additions<br>to receive it</td>
+      <td align="center" valign="middle">Print the palindrome<br>and the number of<br>additions to get it</td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.java">&nbsp
            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
