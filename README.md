@@ -30,9 +30,9 @@
 <br><table align="center" valign="middle">
    <tr align="center" valign="middle">
       <td> </td> 
-      <td><B>Task (SPOJ link)</td> </th>
+      <td><B>Task Name<br>(SPOJ link)</td> </th>
       <td><B>My solutions</td> 
-      <td><B>Tests</td>    
+      <td><B>Test on Ideone</td>    
       <td><B>Implementation</td> </th> 
    </tr>
     <tr>
