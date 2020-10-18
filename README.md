@@ -230,8 +230,23 @@
       <td align="center" valign="middle"><a href="https://ideone.com/WZXplF">Ideone Test</a></td>
       <td align="center" valign="middle">Gray code</td>
    </tr>
-   <tr>
+    <tr>
       <td align="center" valign="middle">14</td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/DYZIO2/">Dyzio</a></td>
+      <td align="center" valign="middle">Calculate the number<br>of prime numbers<br>in the given range</td>                                                                                  
+      <td align="center" valign="middle">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.java">&nbsp
+            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
+         width=42" height="32"> </a>
+         <br>
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.cpp">
+         <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
+         width=30" height="30"> </a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/AhWFaw">Ideone Test</a></td>
+      <td align="center" valign="middle">Sieve of Eratosthenes</td>
+   </tr>                                     
+   <tr>
+      <td align="center" valign="middle">15</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/ETI06F2/">Ciekawa<br>Wyliczanka</a></td>
       <td align="center" valign="middle">For the given k calculate<br>the k-th interesting number</td>                                                                                  
       <td align="center" valign="middle">
@@ -246,7 +261,7 @@
       <td align="center" valign="middle"> - </td>
    </tr>
     <tr>
-      <td align="center" valign="middle">15</td> 
+      <td align="center" valign="middle">16</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/JSZYFR2/">Szyfrowanie2</a></td>
       <td align="center" valign="middle">Determine the number<br>that decrypts the message<br>and decrypted message</td>                                                                                  
       <td align="center" valign="middle">
@@ -261,7 +276,7 @@
       <td align="center" valign="middle"> - </td>
    </tr>
    <tr>
-      <td align="center" valign="middle">16</td> 
+      <td align="center" valign="middle">17</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/MWP4_1E/">PrefiksSufiks</a></td>
       <td align="center" valign="middle">Find out a position<br>in an array that the prefix<br>aligns the suffix</td>                                                                                  
       <td align="center" valign="middle">
@@ -274,21 +289,6 @@
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/ooIrHw">Ideone Test</a></td>
       <td align="center" valign="middle"> - </td>
-   </tr>
-   <tr>
-      <td align="center" valign="middle">17</td> 
-      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/DYZIO2/">Dyzio</a></td>
-      <td align="center" valign="middle">Calculate the number<br>of prime numbers<br>in the given range</td>                                                                                  
-      <td align="center" valign="middle">
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.java">&nbsp
-            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
-         width=42" height="32"> </a>
-         <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.cpp">
-         <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
-         width=30" height="30"> </a></td>
-      <td align="center" valign="middle"><a href="https://ideone.com/AhWFaw">Ideone Test</a></td>
-      <td align="center" valign="middle">Sieve of Eratosthenes</td>
    </tr>
     <tr>
       <td align="center" valign="middle">18</td> 
