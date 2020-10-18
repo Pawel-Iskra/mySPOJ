@@ -45,7 +45,7 @@
          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/javaa.png"
          width=42" height="32"> </a>                     
       </td>
-      <td align="center" valign="middle"><a href="https://ideone.com/FQwX4L">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/xaBtDL">Ideone Test</a></td>
       <td align="center" valign="middle">Multithreading,<br> Sieve of Eratosthenes</td>
    </tr>
    <tr>
@@ -61,7 +61,7 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>                     
       </td>
-      <td align="center" valign="middle"><a href="https://ideone.com/xaBtDL">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/UTxPMR">Ideone Test</a></td>
       <td align="center" valign="middle">Euclidean algorithm</td>
    </tr>
    <tr>
