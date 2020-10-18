@@ -61,7 +61,7 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/cpp.png"
          width=30" height="30"> </a>                     
       </td>
-      <td align="center" valign="middle"><a href="https://ideone.com/CovReW">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/xaBtDL">Ideone Test</a></td>
       <td align="center" valign="middle">Euclidean algorithm</td>
    </tr>
    <tr>
