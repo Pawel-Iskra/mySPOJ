@@ -2,7 +2,7 @@
 /// NOTES: ////////////////////////////////////////////////////
 /// TASK ID = 569, NAME: PIOTRUŚ W KRAINIE LICZB PIERWSZYCH ///
 /// link: https://pl.spoj.com/problems/BFN2/ //////////////////
-/// TIME RESULT FOR THIS SOLUTION =       /////////////////////
+/// TIME RESULT FOR THIS SOLUTION =    ////////////////////////
 /// USAGE: MULTITHREADING, SIEVE OF ERATOSTHENES //////////////
 ///////////////////////////////////////////////////////////////
 
@@ -83,7 +83,7 @@ public class KrainaLiczbPierwszych {
         }
     }
 
-    private static StringBuilder getResultIfLessThanThreeHundred(int start, int end) {
+    private static StringBuilder getResultIfLessThanOneHundred(int start, int end) {
         StringBuilder strb = new StringBuilder();
         for (int i = start; i <= end; i++) {
             if (isPrime(i)) strb.append(i).append("\n");
@@ -110,7 +110,7 @@ public class KrainaLiczbPierwszych {
             int start = rd.nextInt();
             int end = rd.nextInt();
             int diff = end - start;
-            if (diff > 300) {
+            if (diff > 100) {
                 int[] starts = new int[numOfThreads];
                 int[] ends = new int[numOfThreads];
                 diff = diff / numOfThreads;
@@ -133,7 +133,7 @@ public class KrainaLiczbPierwszych {
                    strb.append(futureTasks[i].get());
                 }
             } else {
-                strb.append(getResultIfLessThanThreeHundred(start, end));
+                strb.append(getResultIfLessThanOneHundred(start, end));
             }
             out.write(strb.toString().getBytes());
             out.flush();
