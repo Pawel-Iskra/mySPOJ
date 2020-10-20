@@ -57,7 +57,7 @@
          <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/NWW.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/mySPOJ/NWW.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a>                     
       </td>
@@ -73,7 +73,7 @@
          <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/primes_t2.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/primes_t2.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a>
    </td>
@@ -89,7 +89,7 @@
          <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Binoms.cpp">
+         <a href="hhttps://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Binoms.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a> </td>
        <td align="center" valign="middle"><a href="https://ideone.com/8BYi2S">Ideone Test</a></td>
@@ -104,7 +104,7 @@
           <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Kadane.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Kadane.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
           <td align="center" valign="middle"><a href="https://ideone.com/C5KbvE">Ideone Test</a></td>
@@ -119,7 +119,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/MajatekBilla.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/MajatekBilla.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
          <td align="center" valign="middle"><a href="https://ideone.com/KypUMa">Ideone Test</a></td> 
@@ -134,7 +134,7 @@
            <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Sort1.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Sort1.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
          <td align="center" valign="middle"><a href="https://ideone.com/DED0dF">Ideone Test</a></td>
@@ -149,7 +149,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/BajtockieSwietoTrojkata.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/BajtockieSwietoTrojkata.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
        <td align="center" valign="middle"><a href="https://ideone.com/tvO5Ho">Ideone Test</a></td>
@@ -164,7 +164,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/WspolliniowoscPunktow.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/WspolliniowoscPunktow.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
          <td align="center" valign="middle"><a href="https://ideone.com/fmOmqH">Ideone Test</a></td>
@@ -179,7 +179,7 @@
          <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
         <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SystemyPozycyjne.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/SystemyPozycyjne.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
          <td align="center" valign="middle"><a href="https://ideone.com/5teljJ">Ideone Test</a></td>
@@ -194,7 +194,7 @@
           <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/LENLCS.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td> 
       <td align="center" valign="middle"><a href="https://ideone.com/xOS9gP">Ideone Test</a></td>
@@ -209,7 +209,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/SzyfrGronsfelda.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/SzyfrGronsfelda.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td> 
        <td align="center" valign="middle"><a href="https://ideone.com/hX41SG">Ideone Test</a></td>
@@ -224,7 +224,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/GrayCode.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/GrayCode.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td> 
       <td align="center" valign="middle"><a href="https://ideone.com/WZXplF">Ideone Test</a></td>
@@ -239,7 +239,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Dyzio.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Dyzio.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/AhWFaw">Ideone Test</a></td>
@@ -254,7 +254,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/CiekawaWyliczanka.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/CiekawaWyliczanka.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/wEZH69">Ideone Test</a></td>
@@ -269,7 +269,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Szyfrowanie2.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Szyfrowanie2.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/Q45aDq">Ideone Test</a></td>
@@ -284,7 +284,7 @@
             <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/PrefixSuffix.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/PrefixSuffix.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/ooIrHw">Ideone Test</a></td>
@@ -321,7 +321,7 @@
           <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/Flamaster.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Flamaster.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/2krgDA">Ideone Test</a></td>
@@ -336,7 +336,7 @@
            <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/ZabawneDodawaniePiotrusia.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/ZabawneDodawaniePiotrusia.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/wMlQky">Ideone Test</a></td>
