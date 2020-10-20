@@ -1,4 +1,4 @@
-<B>MY STATISTICS:
+<B>MY STATISTICS from <a href="https://pl.spoj.com/">polishSPOJ</a>:
 <table align="center" valign="middle">
    <tr align="center" valign="middle">
       <td>My spoj account </td> 
