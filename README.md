@@ -296,7 +296,7 @@
       <td align="center" valign="middle">Using BrainFuck language<br>print out the given sentence</td>                                                                                 
       <td align="center" valign="middle">
           <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/BF_Wprawka.bf">
-          <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
+          <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/bf4.png"
          width=42" height="32"> </a></td>
        <td align="center" valign="middle"><a href="https://ideone.com/Hyxli3">Ideone Test</a></td>
       <td align="center" valign="middle"> - </td>
@@ -307,7 +307,7 @@
       <td align="center" valign="middle">Using BrainFuck language<br>get the last binary digit<br>of the decimal number</td>
       <td align="center" valign="middle">
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/BF_LastBinaryDigit.bf">
-            <img alt="Java" src="https://github.com/Pawel-Iskra/mySPOJ/blob/master/mySPOJ/bf4.png"
+            <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/bf4.png"
          width=42" height="32"> </a></td>
       <td align="center" valign="middle"><a href="https://ideone.com/sz7AHT">Ideone Test</a></td>
       <td align="center" valign="middle"> - </td>
