@@ -57,7 +57,7 @@
          <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/mySPOJ/NWW.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/NWW.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a>                     
       </td>
