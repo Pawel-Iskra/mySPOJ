@@ -3,7 +3,7 @@
 /// TASK ID = 655, NAME: Gray code ////////////////////
 /// link: https://pl.spoj.com/problems/PP0505D ////////
 /// TIME RESULT FOR THIS SOLUTION = 0,11s /////////////
-/// USAGE: GENERATING ALL POSIBBLE BINARY STRINGS /////
+/// USAGE: GENERATING ALL POSSIBLE BINARY STRINGS /////
 /// OF A GIVEN LENGTH IN THE ORDER OF GRAY CODE ///////
 ///////////////////////////////////////////////////////
 
@@ -12,6 +12,7 @@ package spoj;
 import java.io.*;
 
 public class GrayCode {
+
     private static byte[][] getGrayCodeForNextLevel(byte[][] base) {
         int lineBase = base.length;
         int levBase = base[0].length;
@@ -20,10 +21,9 @@ public class GrayCode {
         int levRes = levBase + 1;
         byte[][] res = new byte[lineRes][levRes];
 
-        for (int i = 0; i < lineBase; i++)
-            for (int j = 0; j < levBase; j++)
-                res[i][j + 1] = base[i][j];
-
+        for (int i = 0; i < lineBase; i++) {
+            for (int j = 0; j < levBase; j++) res[i][j + 1] = base[i][j];
+        }
         int factor = 1;
         int start = lineRes / 2;
         for (int i = start; i < lineRes; i++) {
@@ -47,13 +47,14 @@ public class GrayCode {
         base[1][0] = 1;
         byte[][] result;
 
-        int t = Integer.parseInt(rd.readLine());
-        for (int i = 0; i < t; i++) {
+        int tests = Integer.parseInt(rd.readLine());
+        for (int i = 0; i < tests; i++) {
 
             int level = Integer.parseInt(rd.readLine());
             result = base;
-            for (int j = 1; j < level; j++)
+            for (int j = 1; j < level; j++) {
                 result = getGrayCodeForNextLevel(result);
+            }
 
             for (int j = 0; j < result.length; j++) {
                 for (int k = 0; k < result[0].length; k++) {
@@ -61,10 +62,8 @@ public class GrayCode {
                 }
                 strb.append("\n");
             }
-
             strb.append("\n");
         }
-
         out.write(strb.toString().getBytes());
         out.flush();
     }

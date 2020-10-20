@@ -2,15 +2,15 @@
 /// NOTES: /////////////////////////////////////////////
 /// TASK ID = 9022, NAME: BAJTOCKIE ŚWIĘTO TRÓJKĄTA ////
 /// link: https://pl.spoj.com/problems/BAJTST //////////
-/// TIME RESULT FOR THIS SOLUTION = 0,07s //////////////
+/// TIME RESULT FOR THIS SOLUTION = 0,06s //////////////
 /// NOTE: BEST TIME IN JAVA RANKING SOLUTIONS //////////
 /// USAGE: HERON'S FORMULA /////////////////////////////
 ////////////////////////////////////////////////////////
 package spoj;
+
 import java.io.*;
 
 public class BajtockieSwietoTrojkata {
-
 
     public static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
@@ -28,12 +28,9 @@ public class BajtockieSwietoTrojkata {
             int num = 0;
             byte c = read();
             while (c <= ' ') c = read();
-            boolean neg = (c == '-');
-            if (neg) c = read();
             do {
                 num = num * 10 + c - '0';
             } while ((c = read()) >= '0' && c <= '9');
-            if (neg) return -num;
             return num;
         }
 
@@ -41,16 +38,14 @@ public class BajtockieSwietoTrojkata {
             double num = 0, div = 1;
             byte c = read();
             while (c <= ' ') c = read();
-            boolean neg = (c == '-');
-            if (neg) c = read();
             do {
                 num = num * 10 + c - '0';
             } while ((c = read()) >= '0' && c <= '9');
             if (c == '.') {
-                while ((c = read()) >= '0' && c <= '9')
+                while ((c = read()) >= '0' && c <= '9') {
                     num += (c - '0') / (div *= 10);
+                }
             }
-            if (neg) return -num;
             return num;
         }
 
@@ -65,37 +60,41 @@ public class BajtockieSwietoTrojkata {
         }
     }
 
+    private static double getTriangleArea(int sideA, int sideB, int sideC) {
+        double area = 0;
+        if (Math.abs(sideB - sideC) < sideA && sideA < (sideB + sideC)) {
+            area = Math.sqrt((double) (sideA + sideB + sideC)
+                    * (double) (sideA + sideB - sideC)
+                    * (double) (sideA + sideC - sideB)
+                    * (double) (sideB + sideC - sideA)) / 4;
+        }
+        return area;
+    }
+
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         BufferedOutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
 
-        int t = rd.nextInt();
-        for (int i = 0; i < t; i++) {
+        int tests = rd.nextInt();
+        for (int i = 0; i < tests; i++) {
             double sum = 0;
-            int n = rd.nextInt();
-            double k = rd.nextDouble() / 10;
+            int people = rd.nextInt();
+            double chalkUsage = rd.nextDouble() / 10;
 
-            for (int j = 0; j < n; j++) {
-                int a = rd.nextInt();
-                int b = rd.nextInt();
-                int c = rd.nextInt();
-                if (Math.abs(b - c) < a && a < (b + c)) {
-                    double area = Math.sqrt((double) (a + b + c)
-                            * (double) (a + b - c)
-                            * (double) (a + c - b)
-                            * (double) (b + c - a)) / 4;
-                    sum = sum + k * area;
-                }
+            for (int j = 0; j < people; j++) {
+                int sideA = rd.nextInt();
+                int sideB = rd.nextInt();
+                int sideC = rd.nextInt();
+
+                double area = getTriangleArea(sideA, sideB, sideC);
+                sum = sum + chalkUsage * area;
             }
+
             long result = Math.round(sum);
-            strb.append(result);
-
-            strb.append("\n");
-            out.write(strb.toString().getBytes());
-            out.flush();
-            strb.delete(0, strb.length());
+            strb.append(result).append("\n");
         }
-
+        out.write(strb.toString().getBytes());
+        out.flush();
     }
 }

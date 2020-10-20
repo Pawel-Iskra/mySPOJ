@@ -31,48 +31,47 @@ public class BINOMS {
             int num = 0;
             byte c = read();
             while (c <= 32) c = read();
-            boolean neg = (c == 45);
-            if (neg) c = read();
             do {
                 num = num * 10 + c - 48;
             } while ((c = read()) >= 48 && c <= 57);
-            if (neg) return -num;
             return num;
         }
 
         private void fillBuffer() throws IOException {
             bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
-            if (bytesRead == -1)
-                buffer[0] = -1;
+            if (bytesRead == -1) buffer[0] = -1;
         }
 
         private byte read() throws IOException {
-            if (bufferPointer == bytesRead)
-                fillBuffer();
+            if (bufferPointer == bytesRead) fillBuffer();
             return buffer[bufferPointer++];
         }
     }
 
+    private static long getNewtonSymbol(int n, int k) {
+        long result = 1;
+        if ((n - k) > k) {
+            k = n - k;
+        }
+        k++;
+
+        for (int num = n, den = 1; num >= k; num--, den++) {
+            result = result * num / den;
+        }
+        return result;
+    }
 
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         OutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
 
-        int t = rd.nextInt();
-
-        for (int i = 0; i < t; i++) {
+        int tests = rd.nextInt();
+        for (int i = 0; i < tests; i++) {
             int n = rd.nextInt();
             int k = rd.nextInt();
 
-            if ((n - k) > k) k = n - k;
-            k++;
-
-            long res = 1;
-            for (int num = n, den = 1; num >= k; num--, den++)
-                res = res * num / den;
-
-            strb.append(res).append("\n");
+            strb.append(getNewtonSymbol(n, k)).append("\n");
         }
 
         out.write(strb.toString().getBytes());

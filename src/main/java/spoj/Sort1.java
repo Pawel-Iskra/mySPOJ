@@ -15,12 +15,20 @@ import java.util.List;
 public class Sort1 {
 
     private static class Point {
-        String name;
-        double dist;
+        private String name;
+        private double dist;
 
         public Point(String name, double distance) {
             this.name = name;
             this.dist = distance;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public double getDist() {
+            return dist;
         }
     }
 
@@ -51,13 +59,11 @@ public class Sort1 {
 
         private void fillBuffer() throws IOException {
             bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
-            if (bytesRead == -1)
-                buffer[0] = -1;
+            if (bytesRead == -1) buffer[0] = -1;
         }
 
         private byte read() throws IOException {
-            if (bufferPointer == bytesRead)
-                fillBuffer();
+            if (bufferPointer == bytesRead) fillBuffer();
             return buffer[bufferPointer++];
         }
     }
@@ -66,13 +72,13 @@ public class Sort1 {
         Reader rd = new Reader();
         OutputStream out = new BufferedOutputStream(System.out);
 
-        int t = rd.nextInt();
-        for (int i = 0; i < t; i++) {
+        int tests = rd.nextInt();
+        for (int i = 0; i < tests; i++) {
 
             List<Point> points = new ArrayList<>();
             StringBuilder strb;
-            int n = rd.nextInt();
-            for (short j = 0; j < n; j++) {
+            int amount = rd.nextInt();
+            for (short j = 0; j < amount; j++) {
 
                 strb = new StringBuilder();
                 int c;
@@ -82,16 +88,17 @@ public class Sort1 {
                 int y = rd.nextInt();
                 double dist = Math.sqrt(x * x + y * y);
 
-                strb.append(" ").append(x).append(" ").append(y);
-                Point point = new Point(strb.toString(), dist);
+                String pointName = strb.append(" " + x + " " + y).toString();
+                Point point = new Point(pointName, dist);
                 points.add(point);
             }
 
             int size = points.size();
             for (int j = 1; j < size; j++) {
                 Point temp = points.get(j);
+                double tempDist = temp.getDist();
                 int k = j - 1;
-                while (k >= 0 && temp.dist < points.get(k).dist) {
+                while (k >= 0 && tempDist < points.get(k).getDist()) {
                     points.set((k + 1), points.get(k));
                     k--;
                 }
@@ -99,12 +106,12 @@ public class Sort1 {
             }
 
             strb = new StringBuilder();
-            for (short j = 0; j < n; j++) strb.append(points.get(j).name).append("\n");
-
+            for (int j = 0; j < amount; j++) {
+                strb.append(points.get(j).getName()).append("\n");
+            }
             out.write(strb.toString().getBytes());
             out.flush();
         }
-
 
     }
 }

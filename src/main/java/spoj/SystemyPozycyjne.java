@@ -28,12 +28,9 @@ public class SystemyPozycyjne {
             int num = 0;
             byte c = read();
             while (c <= ' ') c = read();
-            boolean neg = (c == '-');
-            if (neg) c = read();
             do {
                 num = num * 10 + c - '0';
             } while ((c = read()) >= '0' && c <= '9');
-            if (neg) return -num;
             return num;
         }
 
@@ -48,58 +45,67 @@ public class SystemyPozycyjne {
         }
     }
 
+    private static String getHexadecimal(int number) {
+        StringBuilder strb = new StringBuilder();
+        while (number != 0) {
+            int rest = number % 16;
+            if (rest <= 9) {
+                strb.append(rest);
+            } else {
+                switch (rest) {
+                    case 10:
+                        strb.append('A');
+                        break;
+                    case 11:
+                        strb.append('B');
+                        break;
+                    case 12:
+                        strb.append('C');
+                        break;
+                    case 13:
+                        strb.append('D');
+                        break;
+                    case 14:
+                        strb.append('E');
+                        break;
+                    case 15:
+                        strb.append('F');
+                        break;
+                }
+            }
+            number = number / 16;
+        }
+        strb.reverse();
+        return strb.toString();
+    }
+
+    private static String getEleventhSystem(int number) {
+        StringBuilder strb = new StringBuilder();
+        while (number != 0) {
+            if (number % 11 <= 9) strb.append(number % 11);
+            else strb.append('A');
+
+            number = number / 11;
+        }
+        strb.reverse();
+        return strb.toString();
+    }
+
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         OutputStream out = new BufferedOutputStream(System.out);
-        StringBuilder strb1;
-        StringBuilder strb2;
-        StringBuilder strbout = new StringBuilder();
+        StringBuilder strb = new StringBuilder();
 
         int tests = rd.nextInt();
         for (int i = 0; i < tests; i++) {
-            strb1 = new StringBuilder();
-            strb2 = new StringBuilder();
-            int num = rd.nextInt();
-            int copy = num;
-            while (copy != 0) {
-                int rest = copy % 16;
-                if (rest <= 9) strb1.append(rest);
-                else {
-                    switch (rest) {
-                        case 10:
-                            strb1.append('A');
-                            break;
-                        case 11:
-                            strb1.append('B');
-                            break;
-                        case 12:
-                            strb1.append('C');
-                            break;
-                        case 13:
-                            strb1.append('D');
-                            break;
-                        case 14:
-                            strb1.append('E');
-                            break;
-                        case 15:
-                            strb1.append('F');
-                            break;
-                    } // end switch
-                } // end else
-                copy = copy / 16;
-            } // end while
-            strb1.reverse();
 
-            while (num != 0) {
-                if (num % 11 <= 9) strb2.append(num % 11);
-                else strb2.append('A');
-                num = num / 11;
-            }
-            strb2.reverse();
-            strbout.append(strb1).append(" ").append(strb2).append("\n");
+            int number = rd.nextInt();
+            String hexadecimal = getHexadecimal(number);
+            String eleventhSystem = getEleventhSystem(number);
+            strb.append(hexadecimal).append(" ").append(eleventhSystem).append("\n");
         }
 
-        out.write(strbout.toString().getBytes());
+        out.write(strb.toString().getBytes());
         out.flush();
     }
 }

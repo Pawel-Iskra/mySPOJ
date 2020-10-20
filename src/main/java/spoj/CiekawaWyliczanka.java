@@ -47,13 +47,8 @@ public class CiekawaWyliczanka {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        Reader rd = new Reader();
+    private static StringBuilder getInterestingNumber(int n) {
         StringBuilder strb = new StringBuilder();
-        BufferedOutputStream out = new BufferedOutputStream(System.out);
-
-        int n = rd.nextInt();
-
         String binaryN = Integer.toBinaryString(n);
         int length = binaryN.length();
         if (binaryN.contains("0")) {
@@ -67,13 +62,24 @@ public class CiekawaWyliczanka {
             char[] diffChars = Integer.toBinaryString(diff).toCharArray();
             int baseLen = baseChars.length;
             int diffLen = diffChars.length;
-            for (int i = 0; i < diffLen; i++)
+            for (int i = 0; i < diffLen; i++) {
                 baseChars[baseLen - i - 1] = (char) (baseChars[baseLen - i - 1] + diffChars[diffLen - i - 1] - 48);
-            strb.delete(0,strb.length());
+            }
+            strb.delete(0, strb.length());
             strb.append(baseChars);
-        } else
+        } else {
             for (int i = 0; i < length; i++) strb.append(5);
+        }
+        return strb;
+    }
 
+    public static void main(String[] args) throws IOException {
+        Reader rd = new Reader();
+        BufferedOutputStream out = new BufferedOutputStream(System.out);
+        StringBuilder strb = new StringBuilder();
+
+        int n = rd.nextInt();
+        strb.append(getInterestingNumber(n));
         out.write(strb.toString().getBytes());
         out.flush();
     }

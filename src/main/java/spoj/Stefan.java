@@ -38,13 +38,11 @@ public class Stefan {
 
         private void fillBuffer() throws IOException {
             bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
-            if (bytesRead == -1)
-                buffer[0] = -1;
+            if (bytesRead == -1) buffer[0] = -1;
         }
 
         private byte read() throws IOException {
-            if (bufferPointer == bytesRead)
-                fillBuffer();
+            if (bufferPointer == bytesRead) fillBuffer();
             return buffer[bufferPointer++];
         }
     }
@@ -54,16 +52,16 @@ public class Stefan {
         OutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
 
-        int n = rd.nextInt();
-        int inst[] = new int[n];
+        int amount = rd.nextInt();
+        int[] numbers = new int[amount];
 
-        for (int i = 0; i < n; i++) inst[i] = rd.nextInt();
+        for (int i = 0; i < amount; i++) numbers[i] = rd.nextInt();
 
         long maxL = 0;
         long maxG = 0;
-        for (int i = 0; i < n; i++) {
-            if (inst[i] > (inst[i] + maxL)) maxL = inst[i];
-            else maxL = inst[i] + maxL;
+        for (int i = 0; i < amount; i++) {
+            if (numbers[i] > (numbers[i] + maxL)) maxL = numbers[i];
+            else maxL = numbers[i] + maxL;
             if (maxL > maxG) maxG = maxL;
         }
 

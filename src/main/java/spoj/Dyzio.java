@@ -11,9 +11,9 @@ package spoj;
 import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
-import java.util.Arrays;
 
 public class Dyzio {
+
     private static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
         private DataInputStream din;
@@ -58,7 +58,7 @@ public class Dyzio {
         Reader rd = new Reader();
         BufferedOutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
-        int numberOfPrimes[] = new int[1000001];
+        int[] numberOfPrimes = new int[1000001];
 
         int counter = 0;
         for (int i = 0; i < 1000001; i++) {

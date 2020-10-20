@@ -28,12 +28,9 @@ public class MajatekBilla {
             int num = 0;
             byte c = read();
             while (c <= ' ') c = read();
-            boolean neg = (c == '-');
-            if (neg) c = read();
             do {
                 num = num * 10 + c - '0';
             } while ((c = read()) >= '0' && c <= '9');
-            if (neg) return -num;
             return num;
         }
 
@@ -48,6 +45,21 @@ public class MajatekBilla {
         }
     }
 
+    private static int getModulo(int base, int exp, int modulo) {
+        int result = 1;
+        int rest = base % modulo;
+
+        for (int i = 1; i <= exp; i = i << 1) {
+            rest = rest % modulo;
+            if ((exp & i) != 0) {
+                result = result * rest;
+                result = result % modulo;
+            }
+            rest = rest * rest;
+        }
+        return result;
+    }
+
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         BufferedOutputStream out = new BufferedOutputStream(System.out);
@@ -57,18 +69,9 @@ public class MajatekBilla {
         int exp = rd.nextInt();
         int modulo = rd.nextInt();
         do {
-            int result = 1;
-            int rest = base % modulo;
-
-            for (int i = 1; i <= exp; i = i << 1) {
-                rest = rest % modulo;
-                if ((exp & i) != 0) {
-                    result = result * rest;
-                    result = result % modulo;
-                }
-                rest = rest * rest;
-            }
+            int result = getModulo(base, exp, modulo);
             strb.append(result).append("\n");
+
             base = rd.nextInt();
             exp = rd.nextInt();
             modulo = rd.nextInt();

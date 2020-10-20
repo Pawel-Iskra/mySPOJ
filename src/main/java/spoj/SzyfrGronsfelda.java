@@ -9,43 +9,51 @@
 package spoj;
 
 import java.io.*;
-public class SzyfrGronsfelda {
-    public static void main(String[] args) throws IOException {
 
+public class SzyfrGronsfelda {
+
+    private static String getText(String inputText, String inputKey, char command) {
+        StringBuilder strb = new StringBuilder();
+        char[] inText = inputText.toCharArray();
+        char[] inKey = inputKey.toCharArray();
+
+        int textSize = inText.length;
+        int keySize = inKey.length;
+        int k;
+        switch (command) {
+            case 'S':
+                for (int i = 0; i < textSize; i++) {
+                    k = i % keySize;
+                    if (inText[i] + inKey[k] > 138) strb.append((char) (inText[i] + inKey[k] - 74));
+                    else strb.append((char) (inText[i] + inKey[k] - 48));
+                }
+                break;
+            case 'D':
+                for (int i = 0; i < textSize; i++) {
+                    k = i % keySize;
+                    if (inText[i] - inKey[k] < 17) strb.append((char) (inText[i] - inKey[k] + 74));
+                    else strb.append((char) (inText[i] - inKey[k] + 48));
+                }
+                break;
+        }
+        return strb.toString();
+    }
+
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         OutputStream out = new BufferedOutputStream(System.out);
+        StringBuilder strb = new StringBuilder();
 
         String line;
         while ((line = br.readLine()) != null) {
             String action = line;
-            char[] key = String.valueOf(Integer.parseInt(br.readLine())).toCharArray();
-            char text[] = br.readLine().toCharArray();
+            String key = String.valueOf(Integer.parseInt(br.readLine()));
+            String inputText = br.readLine();
 
-            int k;
-            StringBuilder strb = new StringBuilder();
-            int textSize = text.length;
-            int keySize = key.length;
-            switch (action.charAt(0)) {
-                case 'S':
-                    for (int i = 0; i < textSize; i++) {
-                        k = i % keySize;
-                        if (text[i] + key[k] > 138) strb.append((char) (text[i] + key[k] - 74));
-                        else strb.append((char) (text[i] + key[k] - 48));
-                    }
-                    break;
-                case 'D':
-                    for (int i = 0; i < textSize; i++) {
-                        k = i % keySize;
-                        if (text[i] - key[k] < 17) strb.append((char) (text[i] - key[k] + 74));
-                        else strb.append((char) (text[i] - key[k] + 48));
-                    }
-                    break;
-            }
-
-            strb.append("\n");
-            out.write(strb.toString().getBytes());
-            out.flush();
+            String outputText = getText(inputText, key, action.charAt(0));
+            strb.append(outputText).append("\n");
         }
-
+        out.write(strb.toString().getBytes());
+        out.flush();
     }
 }

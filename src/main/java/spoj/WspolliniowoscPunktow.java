@@ -5,6 +5,7 @@
 /// TIME RESULT FOR THIS SOLUTION = 0,06s /////////////
 /// USAGE: DETERMINANT OF SQUARE MATRIX ///////////////
 ///////////////////////////////////////////////////////
+
 package spoj;
 
 import java.io.*;
@@ -26,52 +27,50 @@ public class WspolliniowoscPunktow {
         private int nextInt() throws IOException {
             int num = 0;
             byte c = read();
-            while (c <= ' ')
-                c = read();
+            while (c <= ' ') c = read();
             boolean neg = (c == '-');
-            if (neg)
-                c = read();
+            if (neg) c = read();
             do {
                 num = num * 10 + c - '0';
             } while ((c = read()) >= '0' && c <= '9');
-
             if (neg) return -num;
             return num;
         }
 
         private void fillBuffer() throws IOException {
             bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
-            if (bytesRead == -1)
-                buffer[0] = -1;
+            if (bytesRead == -1) buffer[0] = -1;
         }
 
         private byte read() throws IOException {
-            if (bufferPointer == bytesRead)
-                fillBuffer();
+            if (bufferPointer == bytesRead) fillBuffer();
             return buffer[bufferPointer++];
         }
+    }
 
+    private static boolean isCollinear(int[] points) {
+        int determinant = -1;
+        determinant = points[0] * points[3] + points[2] * points[5]
+                + points[4] * points[1] - points[2] * points[1]
+                - points[0] * points[5] - points[4] * points[3];
+        return determinant == 0;
     }
 
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         OutputStream out = new BufferedOutputStream(System.out);
+        StringBuilder strb = new StringBuilder();
 
-        int t = rd.nextInt();
-        for (int i = 0; i < t; i++) {
+        int tests = rd.nextInt();
+        for (int i = 0; i < tests; i++) {
 
-            int[] num = new int[6];
-            for (int j = 0; j < 6; j++) num[j] = rd.nextInt();
+            int[] points = new int[6];
+            for (int j = 0; j < 6; j++) points[j] = rd.nextInt();
 
-            int det = num[0] * num[3] + num[2] * num[5] + num[4] * num[1] - num[2] * num[1] - num[0] * num[5] - num[4] * num[3];
-
-            StringBuilder strb = new StringBuilder();
-            if (det == 0) strb.append("TAK").append("\n");
-            else strb.append("NIE").append("\n");
-
-            out.write(strb.toString().getBytes());
-            out.flush();
+            if (isCollinear(points)) strb.append("TAK\n");
+            else strb.append("NIE\n");
         }
-
+        out.write(strb.toString().getBytes());
+        out.flush();
     }
 }

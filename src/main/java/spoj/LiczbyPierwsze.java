@@ -61,8 +61,8 @@ public class LiczbyPierwsze {
         StringBuilder strb = new StringBuilder();
         OutputStream out = new BufferedOutputStream(System.out);
 
-       int n = rd.nextInt();
-        for (int i = 0; i < n; i++) {
+       int tests = rd.nextInt();
+        for (int i = 0; i < tests; i++) {
             if (isPrime(rd.nextInt())) strb.append("TAK\n");
             else strb.append("NIE\n");
         }

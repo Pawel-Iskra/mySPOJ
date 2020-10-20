@@ -12,6 +12,7 @@ import java.io.DataInputStream;
 import java.io.IOException;
 
 public class PrefixSuffix {
+
     private static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
         private DataInputStream din;
@@ -48,34 +49,40 @@ public class PrefixSuffix {
         }
     }
 
+    private static int getPosition(int[] array, long suffix) {
+        int position = 0;
+        int amount = array.length;
+        long prefix = 0;
+        for (int j = 0; j < amount - 1; j++) {
+            int x = array[j];
+            prefix = prefix + x;
+            suffix = suffix - x;
+            if (prefix == suffix) {
+                position = ++j;
+                break;
+            }
+        }
+        return position;
+    }
+
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         BufferedOutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
 
-        int t = rd.nextInt();
-        for (int i = 0; i < t; i++) {
-            int n = rd.nextInt();
-            int numbers[] = new int[n];
-            long sufiks = 0;
-            for (int j = 0; j < n; j++) {
+        int tests = rd.nextInt();
+        for (int i = 0; i < tests; i++) {
+
+            int amount = rd.nextInt();
+            int[] numbers = new int[amount];
+            long suffix = 0;
+            for (int j = 0; j < amount; j++) {
                 int x = rd.nextInt();
                 numbers[j] = x;
-                sufiks = sufiks + x;
+                suffix = suffix + x;
             }
-            long prefiks = 0;
-            boolean flag = false;
-            for (int j = 0; j < n - 1; j++) {
-                int x = numbers[j];
-                prefiks = prefiks + x;
-                sufiks = sufiks - x;
-                if (prefiks == sufiks) {
-                    strb.append(++j).append("\n");
-                    flag = true;
-                    break;
-                }
-            }
-            if (!flag) strb.append(0).append("\n");
+            int result = getPosition(numbers, suffix);
+            strb.append(result).append("\n");
         }
         out.write(strb.toString().getBytes());
         out.flush();
