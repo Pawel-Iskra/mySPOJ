@@ -62,8 +62,8 @@ public class Dyzio {
 
         int counter = 0;
         for (int i = 0; i < 1000001; i++) {
-            if (isPrime(i)) numberOfPrimes[i] = ++counter;
-            else numberOfPrimes[i] = counter;
+            if (isPrime(i)) counter++;
+            numberOfPrimes[i] = counter;
         }
 
         int tests = rd.nextInt();
