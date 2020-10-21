@@ -65,10 +65,15 @@ public class WspolliniowoscPunktow {
         for (int i = 0; i < tests; i++) {
 
             int[] points = new int[6];
-            for (int j = 0; j < 6; j++) points[j] = rd.nextInt();
+            for (int j = 0; j < 6; j++) {
+                points[j] = rd.nextInt();
+            }
 
-            if (isCollinear(points)) strb.append("TAK\n");
-            else strb.append("NIE\n");
+            if (isCollinear(points)) {
+                strb.append("TAK\n");
+            } else {
+                strb.append("NIE\n");
+            }
         }
         out.write(strb.toString().getBytes());
         out.flush();

@@ -30,8 +30,11 @@ public class Flamaster {
                 j = j + count - 1;
             }
         }
-        if (j == length - 2) strb.append(string[j]).append(string[j + 1]);
-        else if (j == length - 1) strb.append(string[j]);
+        if (j == length - 2) {
+            strb.append(string[j]).append(string[j + 1]);
+        } else {
+            if (j == length - 1) strb.append(string[j]);
+        }
 
         return strb.toString();
     }

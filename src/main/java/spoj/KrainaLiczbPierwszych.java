@@ -44,7 +44,9 @@ public class KrainaLiczbPierwszych {
 
         private boolean isPrime(int x) {
             int sqrt = (int) Math.sqrt(x) + 1;
-            for (int i = 3; i < sqrt; i = i + 2) if (x % i == 0) return false;
+            for (int i = 3; i < sqrt; i = i + 2) {
+                if (x % i == 0) return false;
+            }
             return true;
         }
     }
@@ -85,7 +87,9 @@ public class KrainaLiczbPierwszych {
     private static StringBuilder getResultIfLessThanOneHundred(int start, int end) {
         StringBuilder strb = new StringBuilder();
         for (int i = start; i <= end; i++) {
-            if (isPrime(i)) strb.append(i).append("\n");
+            if (isPrime(i)) {
+                strb.append(i).append("\n");
+            }
         }
         return strb;
     }
@@ -93,7 +97,9 @@ public class KrainaLiczbPierwszych {
     private static boolean isPrime(int x) {
         if (x % 2 == 0) return x == 2;
         int sqrt = (int) Math.sqrt(x) + 1;
-        for (int i = 3; i < sqrt; i = i + 2) if (x % i == 0) return false;
+        for (int i = 3; i < sqrt; i = i + 2) {
+            if (x % i == 0) return false;
+        }
         return true;
     }
 
@@ -129,7 +135,7 @@ public class KrainaLiczbPierwszych {
                 }
 
                 for (int i = 0; i < numOfThreads; i++) {
-                   strb.append(futureTasks[i].get());
+                    strb.append(futureTasks[i].get());
                 }
             } else {
                 strb.append(getResultIfLessThanOneHundred(start, end));

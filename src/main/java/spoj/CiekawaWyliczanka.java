@@ -53,9 +53,13 @@ public class CiekawaWyliczanka {
         int length = binaryN.length();
         if (binaryN.contains("0")) {
             length--;
-            for (int i = 0; i < length; i++) strb.append(5);
+            for (int i = 0; i < length; i++) {
+                strb.append(5);
+            }
             int baseNr = 1;
-            for (int i = 0; i < length; i++) baseNr = baseNr * 2;
+            for (int i = 0; i < length; i++) {
+                baseNr = baseNr * 2;
+            }
             baseNr--;
             int diff = n - baseNr;
             char[] baseChars = strb.toString().toCharArray();
@@ -68,7 +72,9 @@ public class CiekawaWyliczanka {
             strb.delete(0, strb.length());
             strb.append(baseChars);
         } else {
-            for (int i = 0; i < length; i++) strb.append(5);
+            for (int i = 0; i < length; i++) {
+                strb.append(5);
+            }
         }
         return strb;
     }

@@ -22,7 +22,9 @@ public class GrayCode {
         byte[][] res = new byte[lineRes][levRes];
 
         for (int i = 0; i < lineBase; i++) {
-            for (int j = 0; j < levBase; j++) res[i][j + 1] = base[i][j];
+            for (int j = 0; j < levBase; j++) {
+                res[i][j + 1] = base[i][j];
+            }
         }
         int factor = 1;
         int start = lineRes / 2;
@@ -32,7 +34,9 @@ public class GrayCode {
             }
             factor++;
         }
-        for (int i = start; i < lineRes; i++) res[i][0] = 1;
+        for (int i = start; i < lineRes; i++) {
+            res[i][0] = 1;
+        }
 
         return res;
     }

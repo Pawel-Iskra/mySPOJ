@@ -87,8 +87,9 @@ public class Szyfrowanie2 {
         while (tests-- > 0) {
             int amount = rd.nextInt();
             int[] numbers = new int[amount];
-            for (int i = 0; i < amount; i++) numbers[i] = rd.nextInt();
-
+            for (int i = 0; i < amount; i++) {
+                numbers[i] = rd.nextInt();
+            }
             strb.append(getResult(numbers)).append("\n");
         }
         out.write(strb.toString().getBytes());

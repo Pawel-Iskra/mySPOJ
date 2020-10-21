@@ -28,7 +28,7 @@ public class LiczbyPierwsze {
             bufferPointer = bytesRead = 0;
         }
 
-      public int nextInt() throws IOException {
+        public int nextInt() throws IOException {
             int num = 0;
             byte c = read();
             while (c <= ' ') c = read();
@@ -48,11 +48,13 @@ public class LiczbyPierwsze {
             return buffer[bufferPointer++];
         }
     }
-    
+
     private static boolean isPrime(int x) {
         if (x % 2 == 0) return x == 2;
         int sqrt = (int) Math.sqrt(x) + 1;
-        for (int i = 3; i < sqrt; i = i + 2) if (x % i == 0) return false;
+        for (int i = 3; i < sqrt; i = i + 2) {
+            if (x % i == 0) return false;
+        }
         return x > 1;
     }
 
@@ -61,12 +63,12 @@ public class LiczbyPierwsze {
         StringBuilder strb = new StringBuilder();
         OutputStream out = new BufferedOutputStream(System.out);
 
-       int tests = rd.nextInt();
+        int tests = rd.nextInt();
         for (int i = 0; i < tests; i++) {
             if (isPrime(rd.nextInt())) strb.append("TAK\n");
             else strb.append("NIE\n");
         }
-        
+
         out.write(strb.toString().getBytes());
         out.flush();
     }

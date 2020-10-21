@@ -82,9 +82,11 @@ public class SystemyPozycyjne {
     private static String getEleventhSystem(int number) {
         StringBuilder strb = new StringBuilder();
         while (number != 0) {
-            if (number % 11 <= 9) strb.append(number % 11);
-            else strb.append('A');
-
+            if (number % 11 <= 9) {
+                strb.append(number % 11);
+            } else {
+                strb.append('A');
+            }
             number = number / 11;
         }
         strb.reverse();

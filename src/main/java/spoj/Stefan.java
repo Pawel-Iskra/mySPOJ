@@ -47,6 +47,18 @@ public class Stefan {
         }
     }
 
+    private static long getMaximumSubarraySum(int[] numbers) {
+        int amount = numbers.length;
+        long maxLocal = 0;
+        long maxGlobal = 0;
+        for (int i = 0; i < amount; i++) {
+            if (numbers[i] > (numbers[i] + maxLocal)) maxLocal = numbers[i];
+            else maxLocal = numbers[i] + maxLocal;
+            if (maxLocal > maxGlobal) maxGlobal = maxLocal;
+        }
+        return maxGlobal;
+    }
+
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         OutputStream out = new BufferedOutputStream(System.out);
@@ -54,18 +66,12 @@ public class Stefan {
 
         int amount = rd.nextInt();
         int[] numbers = new int[amount];
-
-        for (int i = 0; i < amount; i++) numbers[i] = rd.nextInt();
-
-        long maxL = 0;
-        long maxG = 0;
         for (int i = 0; i < amount; i++) {
-            if (numbers[i] > (numbers[i] + maxL)) maxL = numbers[i];
-            else maxL = numbers[i] + maxL;
-            if (maxL > maxG) maxG = maxL;
+            numbers[i] = rd.nextInt();
         }
+        long result = getMaximumSubarraySum(numbers);
 
-        strb.append(maxG);
+        strb.append(result);
         out.write(strb.toString().getBytes());
         out.flush();
     }

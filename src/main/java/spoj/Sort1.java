@@ -82,7 +82,9 @@ public class Sort1 {
 
                 strb = new StringBuilder();
                 int c;
-                while ((c = rd.read()) != 32) strb.append((char) c);
+                while ((c = rd.read()) != 32) {
+                    strb.append((char) c);
+                }
 
                 int x = rd.nextInt();
                 int y = rd.nextInt();

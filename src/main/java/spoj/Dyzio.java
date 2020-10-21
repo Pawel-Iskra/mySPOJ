@@ -50,7 +50,9 @@ public class Dyzio {
     private static boolean isPrime(int x) {
         if (x % 2 == 0) return x == 2;
         int sqrt = (int) Math.sqrt(x) + 1;
-        for (int i = 3; i < sqrt; i++) if (x % i == 0) return false;
+        for (int i = 3; i < sqrt; i++) {
+            if (x % i == 0) return false;
+        }
         return x > 1;
     }
 
@@ -70,7 +72,7 @@ public class Dyzio {
         for (int i = 0; i < tests; i++) {
             int lowerLimit = rd.nextInt();
             int upperLimit = rd.nextInt();
-            strb.append(numberOfPrimes[upperLimit] - numberOfPrimes[lowerLimit-1]).append("\n");
+            strb.append(numberOfPrimes[upperLimit] - numberOfPrimes[lowerLimit - 1]).append("\n");
         }
         out.write(strb.toString().getBytes());
         out.flush();
