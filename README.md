@@ -61,9 +61,10 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a>                     
       </td>
-      <td align="center" valign="middle"><a href="https://ideone.com/UTxPMR">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/5CuiiK">Ideone Test</a></td>
       <td align="center" valign="middle">Euclidean algorithm</td>
    </tr>
+                                        
    <tr>
       <td align="center" valign="middle">3</td>                  
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/PRIME_T/">Liczby pierwsze</a></td>
@@ -92,9 +93,10 @@
          <a href="hhttps://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Binoms.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a> </td>
-       <td align="center" valign="middle"><a href="https://ideone.com/8BYi2S">Ideone Test</a></td>
+       <td align="center" valign="middle"><a href="https://ideone.com/GA2KJu">Ideone Test</a></td>
        <td align="center" valign="middle">Binomial coefficient<br>(Newton symbol)</td>
    </tr>
+   
    <tr>
       <td align="center" valign="middle">5</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/FZI_STEF/">Stefan</a></td> 
@@ -122,7 +124,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/MajatekBilla.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-         <td align="center" valign="middle"><a href="https://ideone.com/KypUMa">Ideone Test</a></td> 
+         <td align="center" valign="middle"><a href="https://ideone.com/UVq953">Ideone Test</a></td> 
         <td align="center" valign="middle">Fast modular<br>exponentiation</td>
    </tr>
     <tr>
@@ -137,7 +139,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Sort1.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-         <td align="center" valign="middle"><a href="https://ideone.com/DED0dF">Ideone Test</a></td>
+         <td align="center" valign="middle"><a href="https://ideone.com/t1hdma">Ideone Test</a></td>
         <td align="center" valign="middle">Insertion Sort</td>
    </tr>
    <tr>
@@ -152,7 +154,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/BajtockieSwietoTrojkata.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-       <td align="center" valign="middle"><a href="https://ideone.com/tvO5Ho">Ideone Test</a></td>
+       <td align="center" valign="middle"><a href="https://ideone.com/Wkl2tW">Ideone Test</a></td>
       <td align="center" valign="middle">Heron's formula</td>
    </tr>
    <tr>
@@ -167,7 +169,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/WspolliniowoscPunktow.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-         <td align="center" valign="middle"><a href="https://ideone.com/fmOmqH">Ideone Test</a></td>
+         <td align="center" valign="middle"><a href="https://ideone.com/55WyD3">Ideone Test</a></td>
          <td align="center" valign="middle">Determinant<br>of square matrix</td>
    </tr>
     <tr>
@@ -182,7 +184,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/SystemyPozycyjne.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-         <td align="center" valign="middle"><a href="https://ideone.com/5teljJ">Ideone Test</a></td>
+         <td align="center" valign="middle"><a href="https://ideone.com/YJQLN2">Ideone Test</a></td>
         <td align="center" valign="middle">Number convertions</td>
    </tr>
    <tr>
@@ -197,7 +199,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td> 
-      <td align="center" valign="middle"><a href="https://ideone.com/xOS9gP">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/4n6Ftg">Ideone Test</a></td>
       <td align="center" valign="middle">LCS algorithm</td>
    </tr>
    <tr>
@@ -212,7 +214,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/SzyfrGronsfelda.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td> 
-       <td align="center" valign="middle"><a href="https://ideone.com/hX41SG">Ideone Test</a></td>
+       <td align="center" valign="middle"><a href="https://ideone.com/JuoTdB">Ideone Test</a></td>
        <td align="center" valign="middle">Gronsfeld cipher</td>
    </tr>
    <tr>
@@ -257,7 +259,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/CiekawaWyliczanka.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-      <td align="center" valign="middle"><a href="https://ideone.com/wEZH69">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/tvBqOP">Ideone Test</a></td>
       <td align="center" valign="middle"> - </td>
    </tr>
     <tr>
@@ -272,7 +274,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Szyfrowanie2.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-      <td align="center" valign="middle"><a href="https://ideone.com/Q45aDq">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/aRZQ78">Ideone Test</a></td>
       <td align="center" valign="middle"> - </td>
    </tr>
    <tr>
@@ -287,7 +289,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/PrefixSuffix.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-      <td align="center" valign="middle"><a href="https://ideone.com/ooIrHw">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/4n6Bso">Ideone Test</a></td>
       <td align="center" valign="middle"> - </td>
    </tr>
     <tr>
@@ -324,7 +326,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Flamaster.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-      <td align="center" valign="middle"><a href="https://ideone.com/2krgDA">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/mvlQH4">Ideone Test</a></td>
       <td align="center" valign="middle"> - </td>
    </tr>
     <tr>
