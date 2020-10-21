@@ -244,7 +244,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Dyzio.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-      <td align="center" valign="middle"><a href="https://ideone.com/AhWFaw">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/cZTMXR">Ideone Test</a></td>
       <td align="center" valign="middle">Sieve of Eratosthenes</td>
    </tr>                                     
    <tr>
