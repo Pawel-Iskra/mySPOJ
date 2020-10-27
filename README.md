@@ -48,6 +48,18 @@
       <td align="center" valign="middle"><a href="https://ideone.com/xaBtDL">Ideone Test</a></td>
       <td align="center" valign="middle">Multithreading,<br> Sieve of Eratosthenes</td>
    </tr>
+    <tr>
+      <td align="center" valign="middle">2</td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/KC014/">Mnożenie macierzy</a></td>
+      <td align="center" valign="middle">Get product<br>of multiplication<br>of two square matrices</td>
+      <td align="center" valign="middle">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/IloczynMacierzy.java">
+         <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
+         width=42" height="32"> </a>                     
+      </td>
+      <td align="center" valign="middle"><a href="https://ideone.com/c3QQ9L">Ideone Test</a></td>
+      <td align="center" valign="middle">Multiplication of two square matrixes</td>
+   </tr>
    <tr>
       <td align="center" valign="middle">2</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/NWW">NWW</a></td>
