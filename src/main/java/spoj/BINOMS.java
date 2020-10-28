@@ -53,9 +53,8 @@ public class BINOMS {
         if ((n - k) > k) {
             k = n - k;
         }
-        k++;
 
-        for (int num = n, den = 1; num >= k; num--, den++) {
+        for (int num = n, den = 1; num > k; num--, den++) {
             result = result * num / den;
         }
         return result;
