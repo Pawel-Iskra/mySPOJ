@@ -11,8 +11,23 @@ import java.io.*;
 
 public class IloczynMacierzy {
 
-    private static int[][] getMatrixProduct(int[][] matrix1, int[][] matrix2, int size) {
+    private static int[][] getMatrixProduct(String elementsOfFirstMatrix, String elementsOfSecondMatrix, int size) {
+        String[] lineWithFirstMatrixElements = elementsOfFirstMatrix.split(" ");
+        String[] lineWithSecondMatrixElements = elementsOfSecondMatrix.split(" ");
+        int[][] matrix1 = new int[size][size];
+        int[][] matrix2 = new int[size][size];
         int[][] matrixOut = new int[size][size];
+
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                matrix1[i][j] = Integer.parseInt(lineWithFirstMatrixElements[(j + i * size)]);
+            }
+        }
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                matrix2[i][j] = Integer.parseInt(lineWithSecondMatrixElements[(j + i * size)]);
+            }
+        }
 
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
@@ -21,7 +36,6 @@ public class IloczynMacierzy {
                 for (int k = 0; k < size; k++) {
                     current = current + matrix1[i][k] * matrix2[k][j];
                 }
-
                 matrixOut[i][j] = current;
             }
         }
@@ -35,26 +49,11 @@ public class IloczynMacierzy {
 
         String lineWithMatrixSize = rd.readLine();
         while (lineWithMatrixSize != null) {
-            String[] lineWithFirstMatrixElements = rd.readLine().trim().split(" ");
-            String[] lineWithSecondMatrixElements = rd.readLine().trim().split(" ");
-
+            String lineWithFirstMatrixElements = rd.readLine().trim();
+            String lineWithSecondMatrixElements = rd.readLine().trim();
             int size = Integer.parseInt(lineWithMatrixSize.trim());
-            int[][] matrix1 = new int[size][size];
-            int[][] matrix2 = new int[size][size];
-            int[][] matrixOut;
 
-            for (int i = 0; i < size; i++) {
-                for (int j = 0; j < size; j++) {
-                    matrix1[i][j] = Integer.parseInt(lineWithFirstMatrixElements[(j + i * size)]);
-                }
-            }
-            for (int i = 0; i < size; i++) {
-                for (int j = 0; j < size; j++) {
-                    matrix2[i][j] = Integer.parseInt(lineWithSecondMatrixElements[(j + i * size)]);
-                }
-            }
-
-            matrixOut = getMatrixProduct(matrix1, matrix2, size);
+            int[][] matrixOut = getMatrixProduct(lineWithFirstMatrixElements, lineWithSecondMatrixElements, size);
             for (int i = 0; i < size; i++) {
                 for (int j = 0; j < size; j++) {
                     strb.append(matrixOut[i][j]).append(" ");
