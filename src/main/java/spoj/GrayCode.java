@@ -41,6 +41,17 @@ public class GrayCode {
         return res;
     }
 
+    private static String getResultToPrintOut(byte[][] result){
+        StringBuilder strb = new StringBuilder();
+        for (int j = 0; j < result.length; j++) {
+            for (int k = 0; k < result[0].length; k++) {
+                strb.append(result[j][k]);
+            }
+            strb.append("\n");
+        }
+        return strb.toString();
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
         BufferedOutputStream out = new BufferedOutputStream(System.out);
@@ -60,13 +71,7 @@ public class GrayCode {
                 result = getGrayCodeForNextLevel(result);
             }
 
-            for (int j = 0; j < result.length; j++) {
-                for (int k = 0; k < result[0].length; k++) {
-                    strb.append(result[j][k]);
-                }
-                strb.append("\n");
-            }
-            strb.append("\n");
+            strb.append(getResultToPrintOut(result)).append("\n");
         }
         out.write(strb.toString().getBytes());
         out.flush();
