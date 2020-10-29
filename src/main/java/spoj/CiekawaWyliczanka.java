@@ -84,8 +84,9 @@ public class CiekawaWyliczanka {
         BufferedOutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
 
-        int n = rd.nextInt();
-        strb.append(getInterestingNumber(n));
+        int number = rd.nextInt();
+        strb.append(getInterestingNumber(number));
+
         out.write(strb.toString().getBytes());
         out.flush();
     }

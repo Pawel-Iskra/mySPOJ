@@ -87,8 +87,7 @@ public class BajtockieSwietoTrojkata {
                 int sideB = rd.nextInt();
                 int sideC = rd.nextInt();
 
-                double area = getTriangleArea(sideA, sideB, sideC);
-                sum = sum + chalkUsage * area;
+                sum = sum + chalkUsage * getTriangleArea(sideA, sideB, sideC);
             }
 
             long result = Math.round(sum);

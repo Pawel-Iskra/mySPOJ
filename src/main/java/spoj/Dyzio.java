@@ -47,6 +47,17 @@ public class Dyzio {
         }
     }
 
+    private static int[] getArrayWithAmountsOfPrimes(int arrayLength) {
+        int[] amountOfPrimes = new int[arrayLength];
+        int counter = 0;
+        for (int i = 0; i < arrayLength; i++) {
+            if (isPrime(i)) counter++;
+
+            amountOfPrimes[i] = counter;
+        }
+        return amountOfPrimes;
+    }
+
     private static boolean isPrime(int x) {
         if (x % 2 == 0) return x == 2;
         int sqrt = (int) Math.sqrt(x) + 1;
@@ -60,19 +71,16 @@ public class Dyzio {
         Reader rd = new Reader();
         BufferedOutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
-        int[] numberOfPrimes = new int[1000001];
+        int arrayLength = 1000001;
 
-        int counter = 0;
-        for (int i = 0; i < 1000001; i++) {
-            if (isPrime(i)) counter++;
-            numberOfPrimes[i] = counter;
-        }
+        int[] amountOfPrimes = getArrayWithAmountsOfPrimes(arrayLength);
 
         int tests = rd.nextInt();
         for (int i = 0; i < tests; i++) {
             int lowerLimit = rd.nextInt();
             int upperLimit = rd.nextInt();
-            strb.append(numberOfPrimes[upperLimit] - numberOfPrimes[lowerLimit - 1]).append("\n");
+            int amountOfPrimeNumbersInRange = amountOfPrimes[upperLimit] - amountOfPrimes[lowerLimit - 1];
+            strb.append(amountOfPrimeNumbersInRange).append("\n");
         }
         out.write(strb.toString().getBytes());
         out.flush();

@@ -27,7 +27,7 @@ public class KrainaLiczbPierwszych {
         }
 
         @Override
-        public StringBuilder call() throws Exception {
+        public StringBuilder call() {
             StringBuilder strb = new StringBuilder();
             if (start == 2) {
                 strb.append(2).append("\n");
@@ -103,6 +103,37 @@ public class KrainaLiczbPierwszych {
         return true;
     }
 
+    private static void printOutAnswersWithMultithreading(int start, int end, int numOfThreads) throws IOException, ExecutionException, InterruptedException {
+        BufferedOutputStream out = new BufferedOutputStream(System.out);
+        StringBuilder strb;
+
+        int diff = end - start;
+        int[] starts = new int[numOfThreads];
+        int[] ends = new int[numOfThreads];
+        diff = diff / numOfThreads;
+        starts[0] = start;
+        ends[0] = start + diff;
+        for (int i = 1; i < numOfThreads; i++) {
+            starts[i] = ends[i - 1] + 1;
+            ends[i] = starts[i] + diff;
+        }
+        ends[numOfThreads - 1] = end;
+
+        FutureTask<StringBuilder>[] futureTasks = new FutureTask[numOfThreads];
+        for (int i = 0; i < numOfThreads; i++) {
+            futureTasks[i] = new FutureTask<StringBuilder>(new PrimeNumbersCounter(starts[i], ends[i]));
+            Thread thread = new Thread(futureTasks[i]);
+            thread.start();
+        }
+
+        for (int i = 0; i < numOfThreads; i++) {
+            strb = new StringBuilder();
+            strb.append(futureTasks[i].get());
+            out.write(strb.toString().getBytes());
+            out.flush();
+        }
+    }
+
     public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {
         Reader rd = new Reader();
         BufferedOutputStream out = new BufferedOutputStream(System.out);
@@ -111,37 +142,18 @@ public class KrainaLiczbPierwszych {
 
         int tests = rd.nextInt();
         while (tests-- > 0) {
-            strb = new StringBuilder();
             int start = rd.nextInt();
             int end = rd.nextInt();
             int diff = end - start;
+
             if (diff > 100) {
-                int[] starts = new int[numOfThreads];
-                int[] ends = new int[numOfThreads];
-                diff = diff / numOfThreads;
-                starts[0] = start;
-                ends[0] = start + diff;
-                for (int i = 1; i < numOfThreads; i++) {
-                    starts[i] = ends[i - 1] + 1;
-                    ends[i] = starts[i] + diff;
-                }
-                ends[numOfThreads - 1] = end;
-
-                FutureTask<StringBuilder>[] futureTasks = new FutureTask[numOfThreads];
-                for (int i = 0; i < numOfThreads; i++) {
-                    futureTasks[i] = new FutureTask<StringBuilder>(new PrimeNumbersCounter(starts[i], ends[i]));
-                    Thread thread = new Thread(futureTasks[i]);
-                    thread.start();
-                }
-
-                for (int i = 0; i < numOfThreads; i++) {
-                    strb.append(futureTasks[i].get());
-                }
+                printOutAnswersWithMultithreading(start, end, numOfThreads);
             } else {
+                strb = new StringBuilder();
                 strb.append(getResultIfLessThanOneHundred(start, end));
+                out.write(strb.toString().getBytes());
+                out.flush();
             }
-            out.write(strb.toString().getBytes());
-            out.flush();
         }
 
     }

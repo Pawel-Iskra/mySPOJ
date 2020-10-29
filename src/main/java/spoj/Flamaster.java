@@ -32,8 +32,8 @@ public class Flamaster {
         }
         if (j == length - 2) {
             strb.append(string[j]).append(string[j + 1]);
-        } else {
-            if (j == length - 1) strb.append(string[j]);
+        } else if (j == length - 1) {
+            strb.append(string[j]);
         }
 
         return strb.toString();

@@ -2,7 +2,7 @@
 /// NOTES: ////////////////////////////////////////////
 /// TASK ID = 1240, NAME: WSPOŁLINIOWOŚĆ PUNKTÓW //////
 /// link: https://pl.spoj.com/problems/JWSPLIN/ ///////
-/// TIME RESULT FOR THIS SOLUTION = 0,06s /////////////
+/// TIME RESULT FOR THIS SOLUTION = 0,07s /////////////
 /// USAGE: DETERMINANT OF SQUARE MATRIX ///////////////
 ///////////////////////////////////////////////////////
 
@@ -48,12 +48,12 @@ public class WspolliniowoscPunktow {
         }
     }
 
-    private static boolean isCollinear(int[] points) {
+    private static String getAnswerIfIsCollinear(int[] points) {
         int determinant = -1;
         determinant = points[0] * points[3] + points[2] * points[5]
                 + points[4] * points[1] - points[2] * points[1]
                 - points[0] * points[5] - points[4] * points[3];
-        return determinant == 0;
+        return determinant == 0 ? "TAK" : "NIE";
     }
 
     public static void main(String[] args) throws IOException {
@@ -68,12 +68,7 @@ public class WspolliniowoscPunktow {
             for (int j = 0; j < 6; j++) {
                 points[j] = rd.nextInt();
             }
-
-            if (isCollinear(points)) {
-                strb.append("TAK\n");
-            } else {
-                strb.append("NIE\n");
-            }
+            strb.append(getAnswerIfIsCollinear(points)).append("\n");
         }
         out.write(strb.toString().getBytes());
         out.flush();

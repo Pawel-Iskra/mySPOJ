@@ -4,8 +4,8 @@
 /// link: https://pl.spoj.com/problems/KC008 //////////
 /// TIME RESULT FOR THIS SOLUTION = 0,08s /////////////
 /// NOTE: BEST TIME IN JAVA RANKING SOLUTIONS /////////
-/// USAGE: LOW LEVEL NUMBER READING ///////////////////
 ///////////////////////////////////////////////////////
+
 package spoj;
 
 import java.io.*;

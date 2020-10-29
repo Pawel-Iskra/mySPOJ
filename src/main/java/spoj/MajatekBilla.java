@@ -72,10 +72,7 @@ public class MajatekBilla {
             int result = getModulo(base, exp, modulo);
             strb.append(result).append("\n");
 
-            base = rd.nextInt();
-            exp = rd.nextInt();
-            modulo = rd.nextInt();
-        } while (base != 0 && exp != 0 && modulo != 0);
+        } while ((base = rd.nextInt()) != 0 && (exp = rd.nextInt()) != 0 && (modulo = rd.nextInt()) != 0);
 
         out.write(strb.toString().getBytes());
         out.flush();

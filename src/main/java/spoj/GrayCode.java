@@ -41,8 +41,17 @@ public class GrayCode {
         return res;
     }
 
-    private static String getResultToPrintOut(byte[][] result){
+    private static String getResultToPrintOut(int level) {
         StringBuilder strb = new StringBuilder();
+        byte[][] base = new byte[2][1];
+        base[0][0] = 0;
+        base[1][0] = 1;
+        byte[][] result = base;
+
+        for (int j = 1; j < level; j++) {
+            result = getGrayCodeForNextLevel(result);
+        }
+
         for (int j = 0; j < result.length; j++) {
             for (int k = 0; k < result[0].length; k++) {
                 strb.append(result[j][k]);
@@ -57,21 +66,11 @@ public class GrayCode {
         BufferedOutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
 
-        byte[][] base = new byte[2][1];
-        base[0][0] = 0;
-        base[1][0] = 1;
-        byte[][] result;
-
         int tests = Integer.parseInt(rd.readLine());
         for (int i = 0; i < tests; i++) {
 
             int level = Integer.parseInt(rd.readLine());
-            result = base;
-            for (int j = 1; j < level; j++) {
-                result = getGrayCodeForNextLevel(result);
-            }
-
-            strb.append(getResultToPrintOut(result)).append("\n");
+            strb.append(getResultToPrintOut(level)).append("\n");
         }
         out.write(strb.toString().getBytes());
         out.flush();

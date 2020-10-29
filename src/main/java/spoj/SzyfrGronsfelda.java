@@ -44,9 +44,8 @@ public class SzyfrGronsfelda {
         OutputStream out = new BufferedOutputStream(System.out);
         StringBuilder strb = new StringBuilder();
 
-        String line;
-        while ((line = br.readLine()) != null) {
-            String action = line;
+        String action;
+        while ((action = br.readLine()) != null) {
             String key = String.valueOf(Integer.parseInt(br.readLine()));
             String inputText = br.readLine();
 
