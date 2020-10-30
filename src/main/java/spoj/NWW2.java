@@ -61,6 +61,16 @@ public class NWW2 {
         return (a / small * b);
     }
 
+    private static String getResult(long[] numbers) {
+        long result = 1;
+        int amount = numbers.length;
+        for (int i = 0; i < amount; i++) {
+            result = getLeastCommonMultiple(numbers[i], result);
+        }
+
+        return Long.toUnsignedString(result);
+    }
+
     public static void main(String[] args) throws IOException {
         Reader rd = new Reader();
         BufferedOutputStream out = new BufferedOutputStream(System.out);
@@ -69,13 +79,13 @@ public class NWW2 {
         long tests = rd.nextLong();
         for (int i = 0; i < tests; i++) {
 
-            long result = 1;
-            long amount = rd.nextLong();
+            int amount = (int) rd.nextLong();
+            long[] numbers = new long[amount];
             for (int j = 0; j < amount; j++) {
-                long number = rd.nextLong();
-                result = getLeastCommonMultiple(number, result);
+                numbers[j] = rd.nextLong();
             }
-            strb.append(Long.toUnsignedString(result)).append("\n");
+            String result = getResult(numbers);
+            strb.append(result).append("\n");
         }
         out.write(strb.toString().getBytes());
         out.flush();
