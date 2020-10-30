@@ -314,7 +314,7 @@
          <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/PrefixSuffix.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a></td>
-      <td align="center" valign="middle"><a href="https://ideone.com/4n6Bso">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/iUYoVV">Ideone Test</a></td>
       <td align="center" valign="middle"> - </td>
    </tr>
     <tr>
