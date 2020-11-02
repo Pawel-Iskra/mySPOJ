@@ -33,7 +33,7 @@ int main() {
     cin >> tests;
     for (i = 0; i < tests; i++) {
         sum = 0;
-        cin >> n;
+        cin >> people;
         cin >> chalkUsage;
         chalkUsage = chalkUsage / 10;
 
