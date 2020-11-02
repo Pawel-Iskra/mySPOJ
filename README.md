@@ -86,7 +86,7 @@
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a>                     
       </td>
-      <td align="center" valign="middle"><a href="https://ideone.com/6XHh0m">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/WCtfAG">Ideone Test</a></td>
       <td align="center" valign="middle">Euclidean algorithm</td>
    </tr>
                                         
