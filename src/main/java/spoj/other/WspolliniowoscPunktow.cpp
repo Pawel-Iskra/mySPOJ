@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////
 /// NOTES: ////////////////////////////////////////////
-/// TASK ID = 1240, NAME: WSPO£LINIOWOŒÆ PUNKTÓW //////
+/// TASK ID = 1240, NAME: WSPOï¿½LINIOWOï¿½ï¿½ PUNKTï¿½W //////
 /// link: https://pl.spoj.com/problems/JWSPLIN/ ///////
 /// TIME RESULT FOR THIS SOLUTION = 0,00s /////////////
 /// USAGE: DETERMINANT OF SQUARE MATRIX ///////////////
@@ -9,16 +9,28 @@
 #include <iostream>
 using namespace std;
 
+string getIfCollinearOrNot(int coords[]){
+int det;
+det = coords[0] * coords[3] + coords[2] * coords[5] + coords[4] * coords[1]
+    - coords[2] * coords[1] - coords[0] * coords[5] - coords[4] * coords[3];
+
+return det == 0 ? "TAK" : "NIE";
+}
+
 int main(){
-    int t, i, j, det, num0, num1, num2, num3, num4, num5;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    cin >> t;
-    for (i = 0; i < t; i++) {
-        cin >> num0 >> num1 >> num2 >> num3 >> num4 >> num5;
+    int tests;
+    int coords[6];
+    string answer;
 
-        det = num0 * num3 + num2 * num5 + num4 * num1 - num2 * num1 - num0 * num5 - num4 * num3;
-        if (det == 0) cout << "TAK\n";
-        else cout << "NIE\n";
+    cin >> tests;
+    while (tests-- > 0) {
+        cin >> coords[0] >> coords[1] >> coords[2] >> coords[3] >> coords[4] >> coords[5];
+
+        answer = getIfCollinearOrNot(coords);
+        cout << answer << "\n";
     }
     return 0;
 }

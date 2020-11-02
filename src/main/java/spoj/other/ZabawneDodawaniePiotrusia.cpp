@@ -10,24 +10,32 @@
 #include <bits/stdc++.h> 
 using namespace std;
 
-int main() {
-	int t, i, count, number;
-	string number1, number2;
+string getAnswer(int number){
+string number1, number2, answer = "";
+int count = 0;
 
-	cin >> t;
-	for (i = 0; i < t; i++) {
-		count = 0;
+do {
+	number1 = to_string(number);
+	number2 = number1;
+	reverse(number2.begin(), number2.end());
+	count++;
+	number = stoi(number1) + stoi(number2);
+    } while (!(stoi(number1) == stoi(number2)));
+
+    answer.append(to_string(number / 2)).append(" ").append(to_string(--count));
+return answer;
+}
+
+int main() {
+	int tests, number, i;
+	string answer;
+
+	cin >> tests;
+	for (i = 0; i < tests; i++) {
 		cin >> number;
 
-		do {
-			number1 = to_string(number);
-			number2 = number1;
-			reverse(number2.begin(), number2.end());
-			count++;
-			number = stoi(number1) + stoi(number2);
-		} while (!(stoi(number1) == stoi(number2)));
-
-		cout << number / 2 << " " << --count << "\n";
+        answer = getAnswer(number);
+		cout << answer << "\n";
 	}
 	return 0;
 }

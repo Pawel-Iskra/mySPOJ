@@ -9,6 +9,9 @@
 #include <iostream>
 using namespace std;
 
+long getMaxSubarraySum(int numbers[], int len){
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -17,6 +20,7 @@ int main(){
     long maxL = 0, maxG = 0;
  
     cin >> n;
+    int numbers[n];
     for (i = 0; i < n; i++) {
         cin >> x;
         if (x > (x + maxL)) maxL = x;

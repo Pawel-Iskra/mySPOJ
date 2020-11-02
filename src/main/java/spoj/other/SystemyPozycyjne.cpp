@@ -12,53 +12,61 @@
 #include<bits/stdc++.h> 
 using namespace std;
 
+string getHexadecimal(int number){
+string result = "";
+int rest;
+
+while (number != 0) {
+       rest = number % 16;
+       if (rest <= 9) result.insert(0,to_string(rest));
+       else {
+           switch (rest) {
+              case 10:
+                  result.insert(0,"A");
+                  break;
+              case 11:
+                  result.insert(0,"B");
+                  break;
+              case 12:
+                  result.insert(0,"C");
+                  break;
+              case 13:
+                  result.insert(0,"D");
+                  break;
+              case 14:
+                  result.insert(0,"E");
+                  break;
+              case 15:
+                  result.insert(0,"F");
+                  break;
+           } // end switch
+       } // end else
+       number = number / 16;
+} // end while
+return result;
+}
+
+string getEleventhSystem(int number){
+string result = "";
+while (number != 0) {
+      if (number % 11 <= 9) result.insert(0,to_string(number % 11));
+      else result.insert(0,"A");
+      number = number / 11;
+      }
+return result;
+}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t, num, copy, rest;
+    int tests, number;
     string result;
-    cin >> t;
-    while(t-- > 0) {
-        result = "";
-        cin >> num;
-        copy = num;
-        while (copy != 0) {
-            rest = copy % 16;
-            if (rest <= 9) result.insert(0,to_string(rest));
-            else {
-                switch (rest) {
-                case 10:
-                    result.insert(0,"A");
-                    break;
-                case 11:
-                    result.insert(0,"B");
-                    break;
-                case 12:
-                    result.insert(0,"C");
-                    break;
-                case 13:
-                    result.insert(0,"D");
-                    break;
-                case 14:
-                    result.insert(0,"E");
-                    break;
-                case 15:
-                    result.insert(0,"F");
-                    break;
-                } // end switch
-            } // end else
-            copy = copy / 16;
-        } // end while
-        cout << result << " ";
 
-        result = "";
-        while (num != 0) {
-            if (num % 11 <= 9) result.insert(0,to_string(num % 11));
-            else result.insert(0,"A");
-            num = num / 11;
-        }
-        cout << result << "\n";
+    cin >> tests;
+    while(tests-- > 0) {
+        cin >> number;
+        cout << getHexadecimal(number) << " " << getEleventhSystem(number) << "\n";
     }
     return 0;
 }

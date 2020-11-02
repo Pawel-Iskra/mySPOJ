@@ -28,12 +28,15 @@ unsigned long long getLCM(unsigned long long a, unsigned long long b) {
     return (a / small * b);
 }
 
+
+
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
     int i, t, n;
     unsigned long long x, res;
+
     cin >> t;
     while (t-- > 0) {
         res = 1;

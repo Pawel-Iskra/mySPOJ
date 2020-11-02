@@ -49,9 +49,9 @@ int main() {
 		    points[++k] = temp;
 	    }
 
-	    for (j = 0; j < i; j++) 
+	    for (j = 0; j < i; j++) {
 		    cout << points[j].name << "\n";
-		
+		}
 	    cout << "\n";
     }
     return 0;

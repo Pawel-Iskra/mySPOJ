@@ -15,7 +15,9 @@ using namespace std;
 bool isPrime(int x) {
     if (x % 2 == 0) return x == 2;
     int sqr = (int)sqrt(x) + 1;
-    for (int i = 3; i < sqr; i = i + 2) if (x % i == 0) return false;
+    for (int i = 3; i < sqr; i = i + 2) {
+        if (x % i == 0) return false;
+      }
     return x > 1;
 }
 
@@ -23,11 +25,11 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t, x;
-    cin >> t;
-    while (t-- > 0) {
-        cin >> x;
-        if (isPrime(x)) cout << "TAK\n";
+    int tests, number;
+    cin >> tests;
+    while (tests-- > 0) {
+        cin >> number;
+        if (isPrime(number)) cout << "TAK\n";
         else cout << "NIE\n";
     }
     return 0;

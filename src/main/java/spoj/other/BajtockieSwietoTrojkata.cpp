@@ -11,13 +11,24 @@
 #include <math.h>
 using namespace std;
 
+double getArea(int sideA, int sideB, int sideC){
+  double area = 0;
+  if (abs(sideB - sideC) < sideA && sideA < (sideB + sideC)) {
+                area = sqrt((double)(sideA + sideB + sideC)
+                    * (double)(sideA + sideB - sideC)
+                    * (double)(sideA + sideC - sideB)
+                    * (double)(sideB + sideC - sideA)) / 4;
+   }
+   return area;
+}
+
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t, i, n, j, a, b, c;
+    int t, i, n, j, sideA, sideB, sideC;
     long result;
-    double sum, k, x, area;
+    double sum, k, x;
 
     cin >> t;
     for (i = 0; i < t; i++) {
@@ -27,14 +38,8 @@ int main() {
         k = k / 10;
 
         for (j = 0; j < n; j++) {
-            cin >> a >> b >> c;
-            if (abs(b - c) < a && a < (b + c)) {
-                area = sqrt((double)(a + b + c)
-                    * (double)(a + b - c)
-                    * (double)(a + c - b)
-                    * (double)(b + c - a)) / 4;
-                sum = sum + k * area;
-            }
+            cin >> sideA >> sideB >> sideC;
+            sum = sum + k * getArea(sideA, sideB, sideC);
         }
         result = round(sum);
         cout << result << "\n";

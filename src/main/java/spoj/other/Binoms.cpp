@@ -10,27 +10,31 @@
 #include <math.h>
 using namespace std;
 
+long getNewtonSymbol(int n, int k){
+int num, den;
+long result = 1;
+if ((n - k) > k) {
+    k = n - k;
+    }
+    k++;
+    for (num = n, den = 1; num >= k; num--, den++){
+         result = result * num / den;
+        }
+  return result;
+}
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t, i, n, k, num, den; 
-    long res;
-
+    int t, i, n, k;
+    long result;
     cin >> t;
     for (i = 0; i < t; i++) {
         cin >> n;
         cin >> k;
-
-        if ((n - k) > k) k = n - k;
-        k++;
-
-        res = 1;
-        for (num = n, den = 1; num >= k; num--, den++)
-            res = res * num / den;
-
-        cout << res <<"\n";
+        result = getNewtonSymbol(n, k);
+        cout << result <<"\n";
     }
     return 0;
 }

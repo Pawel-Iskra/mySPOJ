@@ -27,8 +27,8 @@ int main(){
 
 	counter = 0;
 	for (i = 0; i < 1000001; i++) {
-		if (isPrime(i)) numberOfPrimes[i] = ++counter;
-		else numberOfPrimes[i] = counter;
+		if (isPrime(i)) counter++;
+		numberOfPrimes[i] = counter;
 	}
 
 	cin >> tests;

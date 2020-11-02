@@ -8,40 +8,49 @@
 #include <iostream>
 using namespace std;
 
+string getAnswer(int numbers[], int amount){
+int i, j, value, x, prime, count, key, flag;
+string result = "";
+int primes[] = { 127, 131, 137, 139, 149 };
+
+flag = 0;
+key = 0;
+for (i = 0; i < 5; i++) {
+	prime = primes[i];
+	count = 0;
+	for (j = 0; j < amount; j++) {
+		value = numbers[j] % prime;
+		if (value >= 65 && value <= 90) count++;
+		else break;
+	}
+	if (count == amount) {
+		flag++;
+		if (flag == 2) break;
+		key = prime;
+	}
+}
+if (flag != 1) result = "NIECZYTELNE";
+else {
+	result.append(to_string(key)).append(" ");
+	for (i = 0; i < amount; i++) result.push_back((char) (numbers[i] % key));
+}
+return result;
+}
+
 int main(){
-	int primes[] = { 127, 131, 137, 139, 149 };
-	int tests, numbers, i, j, value, x, prime, count, key, flag;
-	int nums[25];
+	int i, tests, amount, number;
+	int numbers[25];
+	string answer;
 
 	cin >> tests;
 	while (tests-- > 0) {
-		cin >> numbers;
-		for (i = 0; i < numbers; i++) {
-			cin >> x;
-			nums[i] = x;
+		cin >> amount;
+		for (i = 0; i < amount; i++) {
+			cin >> number;
+			numbers[i] = number;
 		}
-		flag = 0;
-		key = 0;
-		for (i = 0; i < 5; i++) {
-			prime = primes[i];
-			count = 0;
-			for (j = 0; j < numbers; j++) {
-				value = nums[j] % prime;
-				if (value >= 65 && value <= 90) count++;
-				else break;
-			}
-			if (count == numbers) {
-				flag++;
-				if (flag == 2) break;
-				key = prime;
-			}
-		}
-		if (flag != 1) cout << "NIECZYTELNE";
-		else {
-			cout << key << " ";
-			for (i = 0; i < numbers; i++) cout << (char) (nums[i] % key);
-		}
-		cout << "\n";
+		answer = getAnswer(numbers, amount);
+		cout << answer << "\n";
 	}
 	return 0;
 }
