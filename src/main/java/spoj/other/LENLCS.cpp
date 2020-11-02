@@ -20,7 +20,7 @@ int matrix[1001][1001];
 
 for (int j = 0; j < len1; j++) {
 	for (int k = 0; k < len2; k++) {
-			if (word1[j] == word2[k]) {
+		if (word1[j] == word2[k]) {
 			matrix[j + 1][k + 1] = 1 + matrix[j][k];
 		}
 		else {
@@ -30,7 +30,7 @@ for (int j = 0; j < len1; j++) {
 		}
 	}
 }
-	return matrix[len1][len2];
+return matrix[len1][len2];
 }
 
 int main(){

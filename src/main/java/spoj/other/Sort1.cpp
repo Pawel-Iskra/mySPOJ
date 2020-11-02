@@ -18,16 +18,16 @@ public:
 };
 
 int main() {
-    int t, n, x, y, j, k, i;
+    int tests, amount, x, y, j, k, i;
     double dist;
     string name;
 
-    cin >> t;
-    while (t-- > 0) {
+    cin >> tests;
+    while (tests-- > 0) {
 	    Points points[1000];
 	    i = 0;
-	    cin >> n;
-	    while (n-- > 0) {
+	    cin >> amount;
+	    while (amount-- > 0) {
 		    Points point;
 		    cin >> name;
 		    cin >> x >> y;

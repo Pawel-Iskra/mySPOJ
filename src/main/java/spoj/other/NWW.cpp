@@ -12,7 +12,7 @@
 #include <math.h>
 using namespace std;
 
-unsigned long long getLCM(unsigned long long a, unsigned long long b) {
+unsigned long long getLeastCommonMultiple(unsigned long long a, unsigned long long b) {
     unsigned long long small = 0, big = 0, rest = 0;
     if (a > b) {
         big = a;
@@ -28,24 +28,32 @@ unsigned long long getLCM(unsigned long long a, unsigned long long b) {
     return (a / small * b);
 }
 
+unsigned long long getLCMforAll(unsigned long long array[], int amount){
+    unsigned long long result = 1;
+
+    for(int i = 0; i < amount; i++){
+    result = getLeastCommonMultiple(result, array[i]);
+    }
+    return result;
+}
 
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int i, t, n;
-    unsigned long long x, res;
+    int i, tests, amount;
+    unsigned long long number;
 
-    cin >> t;
-    while (t-- > 0) {
-        res = 1;
-        cin >> n;
-        for (i = 0; i < n; i++) {
-            cin >> x;
-            res = getLCM(x, res);
+    cin >> tests;
+    while (tests-- > 0) {
+        cin >> amount;
+        unsigned long long array[amount];
+        for (i = 0; i < amount; i++) {
+            cin >> number;
+            array[i] = number;
         }
-        cout << res << "\n";
+        cout << getLCMforAll(array, amount) << "\n";
     }
     return 0;
 }

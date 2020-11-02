@@ -25,15 +25,15 @@ int main(){
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 
-	int t, i, j, x, amount, position;
+	int tests, i, j, number, amount, position;
 	int array[10001];
 
-	cin >> t;
-	for (i = 0; i < t; i++) {
+	cin >> tests;
+	for (i = 0; i < tests; i++) {
 		cin >> amount;
 		for (j = 0; j < amount; j++) {
-			cin >> x;
-			array[j] = x;
+			cin >> number;
+			array[j] = number;
 		}
 	position = getPosition(array, amount);
 	cout << position << "\n";

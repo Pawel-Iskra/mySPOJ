@@ -15,22 +15,23 @@ int num, den;
 long result = 1;
 if ((n - k) > k) {
     k = n - k;
-    }
-    k++;
-    for (num = n, den = 1; num >= k; num--, den++){
-         result = result * num / den;
-        }
-  return result;
+}
+k++;
+for (num = n, den = 1; num >= k; num--, den++){
+     result = result * num / den;
+}
+return result;
 }
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t, i, n, k;
+    int tests, i, n, k;
     long result;
-    cin >> t;
-    for (i = 0; i < t; i++) {
+
+    cin >> tests;
+    for (i = 0; i < tests; i++) {
         cin >> n;
         cin >> k;
         result = getNewtonSymbol(n, k);

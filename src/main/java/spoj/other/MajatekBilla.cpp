@@ -13,14 +13,14 @@ using namespace std;
 int getModulo(int base, int exp, int mod){
 int rest, i, result = 1;
 rest = base % mod;
-     for (i = 1; i <= exp; i = i << 1) {
-          rest = rest % mod;
-          if ((exp & i) != 0) {
-             result = result * rest;
-             result = result % mod;
-          }
-          rest = rest * rest;
+for (i = 1; i <= exp; i = i << 1) {
+     rest = rest % mod;
+     if ((exp & i) != 0) {
+         result = result * rest;
+         result = result % mod;
      }
+     rest = rest * rest;
+}
 return result;
 }
 

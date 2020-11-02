@@ -9,24 +9,30 @@
 #include <iostream>
 using namespace std;
 
-long getMaxSubarraySum(int numbers[], int len){
+long getMaxSubarraySum(int numbers[], int amount){
+long maxLocal = 0, maxGlobal = 0;
+for (int i = 0; i < amount; i++) {
+     if (numbers[i] > (numbers[i] + maxLocal)) maxLocal = numbers[i];
+     else maxLocal = numbers[i] + maxLocal;
+     if (maxLocal > maxGlobal) maxGlobal = maxLocal;
+    }
+return maxGlobal;
 }
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int n, i, x;
-    long maxL = 0, maxG = 0;
- 
-    cin >> n;
-    int numbers[n];
-    for (i = 0; i < n; i++) {
-        cin >> x;
-        if (x > (x + maxL)) maxL = x;
-        else maxL = x + maxL;
-        if (maxL > maxG) maxG = maxL;
+    int amount, number, i;
+
+    cin >> amount;
+    int numbers[amount];
+
+    for (i = 0; i < amount; i++) {
+        cin >> number;
+        numbers[i] = number;
     }
-    cout << maxG;
+    cout << getMaxSubarraySum(numbers, amount);
+
     return 0;
 }

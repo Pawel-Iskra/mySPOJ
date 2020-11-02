@@ -12,34 +12,34 @@
 using namespace std;
 
 double getArea(int sideA, int sideB, int sideC){
-  double area = 0;
-  if (abs(sideB - sideC) < sideA && sideA < (sideB + sideC)) {
-                area = sqrt((double)(sideA + sideB + sideC)
-                    * (double)(sideA + sideB - sideC)
-                    * (double)(sideA + sideC - sideB)
-                    * (double)(sideB + sideC - sideA)) / 4;
+double area = 0;
+if (abs(sideB - sideC) < sideA && sideA < (sideB + sideC)) {
+    area = sqrt((double)(sideA + sideB + sideC)
+           * (double)(sideA + sideB - sideC)
+           * (double)(sideA + sideC - sideB)
+           * (double)(sideB + sideC - sideA)) / 4;
    }
-   return area;
+return area;
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t, i, n, j, sideA, sideB, sideC;
+    int tests, i, people, j, sideA, sideB, sideC;
     long result;
-    double sum, k, x;
+    double sum, chalkUsage, x;
 
-    cin >> t;
-    for (i = 0; i < t; i++) {
+    cin >> tests;
+    for (i = 0; i < tests; i++) {
         sum = 0;
         cin >> n;
-        cin >> k;
-        k = k / 10;
+        cin >> chalkUsage;
+        chalkUsage = chalkUsage / 10;
 
-        for (j = 0; j < n; j++) {
+        for (j = 0; j < people; j++) {
             cin >> sideA >> sideB >> sideC;
-            sum = sum + k * getArea(sideA, sideB, sideC);
+            sum = sum + chalkUsage * getArea(sideA, sideB, sideC);
         }
         result = round(sum);
         cout << result << "\n";

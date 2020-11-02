@@ -38,7 +38,7 @@ if (ifContains) {
         }
     result = baseChars;
 	} else {
-	for (i = 0; i < length; i++) result.append("5");
+	    for (i = 0; i < length; i++) result.append("5");
 	}
 return result;
 }

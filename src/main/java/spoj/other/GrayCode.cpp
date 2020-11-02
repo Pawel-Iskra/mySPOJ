@@ -24,7 +24,7 @@ for (i = 0; i < power; i++) {
 	subresult = (bitset<32>(res).to_string());
 
 	for (j = 0; j < 32 - level; j++) subresult.erase(0, 1);
-  result.append(subresult).append("\n");
+    result.append(subresult).append("\n");
 }
 return result;
 }

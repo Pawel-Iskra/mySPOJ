@@ -23,16 +23,15 @@ int main(){
 	cin.tie(NULL);
 
 	int numberOfPrimes[1000001];
-	int counter, i, tests, lowerLimit, upperLimit;
+	int counter = 0, tests, lowerLimit, upperLimit;
 
-	counter = 0;
 	for (i = 0; i < 1000001; i++) {
 		if (isPrime(i)) counter++;
 		numberOfPrimes[i] = counter;
 	}
 
 	cin >> tests;
-	for (i = 0; i < tests; i++) {
+	while (tests-- > 0) {
 		cin >> lowerLimit;
 		cin >> upperLimit;
 		cout << (numberOfPrimes[upperLimit] - numberOfPrimes[lowerLimit - 1]) << "\n";
