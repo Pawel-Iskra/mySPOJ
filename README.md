@@ -115,7 +115,7 @@
          <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>
          <br>
-         <a href="hhttps://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Binoms.cpp">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/other/Binoms.cpp">
          <img alt="C++" src="https://github.com/Pawel-Iskra/Media/blob/master/cpp.png"
          width=30" height="30"> </a> </td>
        <td align="center" valign="middle"><a href="https://ideone.com/R8rEHy">Ideone Test</a></td>
