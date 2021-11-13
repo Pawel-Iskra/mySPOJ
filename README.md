@@ -45,7 +45,7 @@
          <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
          width=42" height="32"> </a>                     
       </td>
-      <td align="center" valign="middle"><a href="https://ideone.com/qI985C">Ideone Test</a></td>
+      <td align="center" valign="middle"><a href="https://ideone.com/DJiNFY">Ideone Test</a></td>
       <td align="center" valign="middle">DFS<br>BFS</td>
    </tr>
     <tr>
