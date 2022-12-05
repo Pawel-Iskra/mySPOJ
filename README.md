@@ -37,6 +37,18 @@
       <td><B>Implementation</td> </th> 
    </tr>
     <tr>
+      <td align="center" valign="middle">0</td> 
+      <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/DIJKSTRA/">Dijkstra</a></td>
+      <td align="center" valign="middle">Find shortest path<br>between graph nodes</td>
+      <td align="center" valign="middle">
+         <a href="https://github.com/Pawel-Iskra/mySPOJ/blob/master/src/main/java/spoj/DIJKSTRA.java">
+         <img alt="Java" src="https://github.com/Pawel-Iskra/Media/blob/master/javaa.png"
+         width=42" height="32"> </a>                     
+      </td>
+      <td align="center" valign="middle"><a href="https://ideone.com/r12xbw">Ideone check</a></td>
+      <td align="center" valign="middle">Dijkstra algorithm</td>
+   </tr>
+    <tr>
       <td align="center" valign="middle">1</td> 
       <td align="center" valign="middle"><a href="https://pl.spoj.com/problems/TDBFS/">Searching the Graph</a></td>
       <td align="center" valign="middle">Graph traversal<br>by DFS or BFS method</td>
